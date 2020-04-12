@@ -1,4 +1,4 @@
-# Data sets used in [Unemployment: the economic costs of COVID-19](https://www.dataetc.org/2020/04/11/unemployment-claims.html), published April 11, 2020.
+# Data sets and d3.js used in [Unemployment: the economic costs of COVID-19](https://www.dataetc.org/2020/04/11/unemployment-claims.html), published April 11, 2020.
 
 ## Number of weekly unemployment claims
 Data file used in the graphic "Number of weekly unemployment claims"
