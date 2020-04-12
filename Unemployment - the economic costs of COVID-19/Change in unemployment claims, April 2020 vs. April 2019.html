@@ -1,0 +1,222 @@
+<!-- Change in unemployment claims, April 2020 vs. April 2019 --> 
+
+<!DOCTYPE html>
+<html>
+    
+    <h5 class="g-hed"></h5>
+    <p class="g-intro"></p>
+    <div id="state_map"></div>
+
+    <div class="g-source"><span class="g-source-bold"></span><span class="g-source-reg"></span></div>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+
+
+    <script>
+        // D3 for United States map:        
+
+        //Creates tooltip and makes it invisible
+        var neutral_text_map = "Hover over a state for more information";
+        var formatComma = d3.format(",.0f");
+
+        var width_map = 800,
+            height_map = 500;
+
+        var projection = d3.geoAlbersUsa()
+            .scale(width_map)
+            .translate([width_map / 2, (height_map - 20) / 2]);
+
+        var path = d3.geoPath()
+            .projection(projection);
+
+        //Appened svg to page
+        var map = d3.select("#state_map").append("svg")
+            .attr("preserveAspectRatio", "xMinYMin meet")
+            .attr("viewBox", "0 0 800 500")
+            .classed("svg-content", true);
+
+        // add tooltip
+        var tip_scatter_text = map.append("text")
+            .attr("class", "map_tooltip-text")
+            .attr("y", 20)
+            .attr("x", width_map / 3)
+            .attr("opacity", 1)
+            .text(neutral_text_map);
+
+        // add elements for the legend
+        map.append("text")
+            .attr("id", "legend_min");
+        map.append("text")
+            .attr("id", "legend_middle");
+        map.append("text")
+            .attr("id", "legend_max");
+
+        //Load the files
+        queue()
+            .defer(d3.json, "United States map.json")
+            .defer(d3.csv, "Unemployment claims, this week vs one year earlier.csv")
+            .await(ready);
+
+        //Moves selection to front
+        d3.selection.prototype.moveToFront = function() {
+            return this.each(function() {
+                this.parentNode.appendChild(this);
+            });
+        };
+
+        //Moves selection to back
+        d3.selection.prototype.moveToBack = function() {
+            return this.each(function() {
+                var firstChild = this.parentNode.firstChild;
+                if (firstChild) {
+                    this.parentNode.insertBefore(this, firstChild);
+                }
+            });
+        };
+
+        function ready(error, us, maptemplate) {
+            if (error) throw error;
+
+            // Create the linear gradient for legend
+            var defs = map.append("defs").attr("id", "gradientContainer");
+
+            var linearGradient = defs.append("linearGradient")
+                .attr("id", "linear-gradient")
+                .attr("x1", "0%").attr("y1", "00%")
+                .attr("x2", "100%").attr("y2", "00%");
+
+            linearGradient.append("stop")
+                .attr("id", "gradient_leftStop")
+                .attr("offset", "0%");
+
+            linearGradient.append("stop")
+                .attr("id", "gradient_rightStop")
+                .attr("offset", "100%");
+
+            // recolor legend:
+            d3.select("#gradient_leftStop")
+                .attr("stop-color", "white");
+
+            d3.select("#gradient_rightStop")
+                .attr("stop-color", "blue");
+
+            // set state fips in the json to numeric to get rid of leading zeros
+            maptemplate.forEach(function(d) {
+                d.fips = +d.fips;
+                d.pct = +d.pct;
+            })
+
+            var quantize = d3.scaleQuantize()
+                .domain([1, 2, 3, 4])
+                .range(d3.range(3).map(function(i) {
+                    return "q" + i + "-9";
+                }));
+
+            // fix this color scale for 
+            var class_assign = d3.scaleLinear()
+                .domain([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+                .range(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]);
+
+            // Define linear scale for output             
+            var pct_minMax = d3.extent(maptemplate, d => d.pct);
+            var pct_mean = d3.mean(maptemplate, d => d.pct);
+
+            //Pair data with state id
+            var dataByFIPS = {};
+            maptemplate.forEach(function(d) {
+                dataByFIPS[d.fips] = +d.pct;
+            });
+
+            //Pair state name with state id
+            var stateByFIPS = {};
+
+            maptemplate.forEach(function(d) {
+                stateByFIPS[d.fips] = d.state;
+            });
+
+            //Pair the state id and data label
+            var labelByFIPS1 = {};
+            maptemplate.forEach(function(d) {
+                labelByFIPS1[d.fips] = d.pct;
+            });
+
+            var color_map_perCap = d3.scaleLinear()
+                .domain([0,
+                    pct_minMax[1]
+                ])
+                .range(["white", "#041EFB"]);
+
+            //Append states
+            map.append("g")
+                .attr("class", "states")
+                .selectAll("path")
+                .data(topojson.feature(us, us.objects.states).features)
+                .enter().append("path")
+                .attr("d", path)
+                .attr("stroke", "rgb(155,155,155)") // state outline color
+
+                //Color states
+                .attr("fill", function(d) {
+                    return color_map_perCap(labelByFIPS1[d.id]);
+                })
+                .attr("class", function(d) {
+                    return class_assign(labelByFIPS1[d.id]);
+                })
+
+                //Hovers
+
+                .on("mouseover", function(d) {
+                    d3.select(this).transition().duration(100).style("opacity", 0.8);
+
+                    tip_scatter_text.html("<tspan>" +
+                        stateByFIPS[d.id] + ": </tspan>" + formatComma(labelByFIPS1[d.id]) + "% increase (2019-2020)");
+                })
+
+                .on("mouseout", function() {
+                    d3.select(this)
+                        .transition().duration(300)
+                        .style("opacity", 1);
+                    tip_scatter_text.html(neutral_text_map);
+                });
+
+
+            // Legend text/position/coloring    
+            var legend_height = 9,
+                text_height = 10,
+                text_position_y = height_map - legend_height - text_height;
+
+            // Currently note working---    
+            var legend_textSize = "20px";
+            if ((parseInt(d3.select("body").style("width"))) < 500) {
+                legend_textSize = "25px";
+            }
+
+            var legendFormat = d3.format(",.0f"),
+                legend_text = "% increase";
+            map.append("rect")
+                .attr("width", 3 * width_map / 5)
+                .attr("height", legend_height)
+                .style("fill", "url(#linear-gradient)")
+                .attr("x", (width_map / 5))
+                .attr("y", height_map - legend_height);
+            d3.select("#legend_min")
+                .attr("x", (width_map / 5) - 10)
+                .attr("y", text_position_y)
+                .text("0%")
+                .style("font-size", legend_textSize);
+            d3.select("#legend_middle")
+                .attr("x", (width_map / 2))
+                .attr("y", text_position_y)
+                .style("font-sze", legend_textSize);
+            d3.select("#legend_max")
+                .attr("x", 4 * width_map / 5 - 50)
+                .attr("y", text_position_y)
+                .text(legendFormat(pct_minMax[1]) + legend_text)
+                .style("font-sze", legend_textSize);
+        }
+
+    </script>
+    
+</html>

@@ -1,0 +1,181 @@
+<!-- Unemployment claims, April 2020 vs. April 2019 -->
+
+<!DOCTYPE html>
+<html>
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<div id="cleveland_dotPlot"></div>
+
+<style>
+    div.tooltip {
+        position: absolute;
+        left: 75px;
+        text-align: center;
+        padding: 8px;
+        font-size: 13px;
+        font-family: 'Proxima-Nova', sans-serif;
+        background: #FFFFFF;
+        border: 1px solid #989898;
+        pointer-events: auto;
+        width: auto;
+        height: auto;
+    }
+
+</style>
+    
+<script>
+    // set the dimensions and margins of the graph
+    var margin = {
+            top: 10,
+            right: 30,
+            bottom: 30,
+            left: 160
+        },
+        width_cleveland = 800 - margin.left - margin.right,
+        height_cleveland = 1500 - margin.top - margin.bottom;
+
+    // append the svg object to the body of the page
+    var svg = d3.select("#cleveland_dotPlot")
+        .append("svg")
+        .attr("preserveAspectRatio", "xMinYMin meet")
+        .attr("viewBox", "0 0 800 1500")
+        .classed("svg-content", true)
+
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+    // Parse the Data
+    //    d3.csv("./data/whencol.csv", function(data) {
+    d3.csv("Unemployment claims, this week vs one year earlier.csv", function(data) {
+
+        var formatComma = d3.format(",.0f");
+
+        // Calculate the height of each tooltip rectangle
+        var numObs = 0;
+        var maxObs_start = 0,
+            maxObs_end = 0;
+        data.forEach(function(x) {
+            numObs++;
+            maxObs_start = d3.max([maxObs_start, +x.start]);
+            maxObs_end = d3.max([maxObs_end, +x.end]);
+        });
+
+
+
+        var tooltip_rectangleHeight = (height_cleveland - margin.top - margin.bottom) / numObs;
+
+
+        svg.selectAll("tooltip_rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", 0)
+            .attr("y", function(d, i) {
+
+                return i * tooltip_rectangleHeight + 0.5 * tooltip_rectangleHeight + 0.24 * i;
+            })
+            .attr("width", width_cleveland)
+            .attr("height", tooltip_rectangleHeight)
+            .style("fill", "transparent")
+            .on("mouseover", function(d) {
+                tooltip.transition()
+                    .duration(0)
+                    .style("opacity", 1)
+                tooltip.html(d.state + "<br/>" + formatComma(d.pct) + "% increase: " + formatComma(d.start) + " (2019) vs.  " + formatComma(d.end) + " (2020)")
+                    .style("left", (d3.event.pageX) + "px")
+                    .style("top", (d3.event.pageY - 28) + "px");
+            })
+            .on("mouseout", function(d) {
+                tooltip.transition()
+                    .duration(10000)
+                    .style("opacity", 0)
+            });
+
+
+        // Add X axis
+        var x = d3.scaleLinear()
+            .domain([0, d3.max([maxObs_start, maxObs_end])])
+            .range([0, width_cleveland]);
+        svg.append("g")
+            .attr("transform", "translate(0," + height_cleveland + ")")
+            .call(d3.axisBottom(x))
+
+        // Y axis
+        var y = d3.scaleBand()
+            .range([0, height_cleveland])
+            .domain(data.map(function(d) {
+                return d.state;
+            }))
+            .padding(1);
+        svg.append("g")
+            .call(d3.axisLeft(y))
+
+        // Lines
+        svg.selectAll("myline")
+            .data(data)
+            .enter()
+            .append("line")
+
+            .attr("x1", function(d) {
+                return x(d.start);
+            })
+            .attr("x2", function(d) {
+                return x(d.end);
+            })
+            .attr("y1", function(d) {
+                return y(d.state);
+            })
+            .attr("y2", function(d) {
+                return y(d.state);
+            })
+            .attr("stroke", d => d3.rgb(d.color))
+            .attr("stroke-width", "1px")
+
+        // Circles of variable 1
+        svg.selectAll("mycircle")
+            .data(data)
+            .enter()
+            .append("circle")
+
+            .attr("cx", function(d) {
+                return x(d.start);
+                return color(d3.rgb(d.color));
+            })
+            .attr("cy", function(d) {
+                return y(d.state);
+            })
+            .attr("r", "6")
+            //            .style("fill", d => d3.rgb(d.color))
+            .style("fill", "#B3B4DF");
+
+        // Circles of variable 2
+        svg.selectAll("mycircle")
+            .data(data)
+            .enter()
+            .append("circle")
+
+            .attr("cx", function(d) {
+                return x(d.end);
+                return color(d3.rgb(d.color));
+
+            })
+            .attr("cy", function(d) {
+                return y(d.state);
+            })
+            .attr("r", "6")
+            .style("fill", "#6163E1");
+
+
+        var tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+    })
+
+</script>
+
+</html

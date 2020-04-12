@@ -1,0 +1,369 @@
+<!-- Number of weekly unemployment claims --> 
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    
+    <style>
+        .svg-container {
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            padding-bottom: 60%;
+            //padding-right: 50%;
+            /* aspect ratio */
+            vertical-align: top;
+            overflow: hidden;
+        }
+
+        .svg-content-responsive {
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 0;
+        }
+
+        .y-axis line {
+            opacity: .2;
+        }
+
+        .y-axis path {
+            display: none;
+        }
+
+        .line {
+            fill: none;
+            stroke-width: 1.5px;
+            opacity: .85;
+        }
+
+        .overlay {
+            fill: none;
+            pointer-events: all;
+        }
+
+        .lineHoverText {
+            text-shadow:
+                -2px -2px 0 #fff,
+                2px -2px 0 #fff,
+                -2px 2px 0 #fff,
+                2px 2px 0 #fff;
+        }
+
+        .hoverCircle {
+            opacity: .85;
+        }
+
+    </style>
+    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125712866-1');
+
+    </script>
+
+    <font style="font-size:10px;">View data by: </font>
+    <select style="font-size:10px;" id="selectbox">
+        <option value="_us" selected>U.S. Total</option>
+        <option value="_state">All States</option>
+    </select>
+    <div id="multiline_chart"></div>
+    <script>
+        var startColor = "steelblue",
+            offColor = "#dddddd";
+
+        var svg_multiline = d3.select("#multiline_chart")
+            .classed("svg-container", true)
+            .append("svg")
+            .attr("preserveAspectRatio", "xMinYMin meet")
+            .attr("viewBox", "0 0 800 420")
+            .classed("svg-content-responsive", true);
+        
+        var chart_width = 800,
+            chart_height = 420;
+        //d3.csv("./data/line_data.csv").then(d => chart(d))
+        d3.csv("Number of weekly unemployment claims.csv", d => chart(d));
+
+        function chart(data) {
+
+            var keys = data.columns.slice(1);
+
+            var parseTime = d3.timeParse("%Y-%m-%d"),
+                formatDate = d3.timeFormat("%Y-%m-%d"),
+                bisectDate = d3.bisector(d => d.date).right,
+                formatValue = d3.format(",.0f");
+
+            data.forEach(function(d) {
+                d.date = parseTime(d.date);
+                return d;
+            })
+
+            var margin_multiline = {
+                    top: 25,
+                    right: 50,
+                    bottom: 15,
+                    left: 55
+                },
+                width = chart_width - margin_multiline.left - margin_multiline.right,
+                height = chart_height - margin_multiline.top - margin_multiline.bottom;
+
+            var x = d3.scaleTime()
+                .rangeRound([margin_multiline.left, width - margin_multiline.right])
+                .domain(d3.extent(data, d => d.date));
+
+            var y = d3.scaleLinear()
+                .rangeRound([height - margin_multiline.bottom, margin_multiline.top]);
+
+            var z = d3.scaleOrdinal(d3.schemeCategory10);
+
+            var line = d3.line()
+                .curve(d3.curveLinear)
+                .x(d => x(d.date))
+                .y(d => y(d.degrees));
+
+            svg_multiline.append("g")
+                .append("g")
+                .attr("class", "x-axis")
+                .attr("transform", "translate(0," + (height - margin_multiline.bottom) + ")")
+                .call(d3.axisBottom(x).tickFormat(d3.timeFormat("%b %d")));
+
+            svg_multiline.append("g")
+                .append("g")
+                .attr("class", "y-axis")
+                .attr("transform", "translate(" + margin_multiline.left + ",0)");
+
+            var focus = svg_multiline.append("g")
+                .attr("class", "focus")
+                .style("display", "none");
+
+            focus.append("line").attr("class", "lineHover")
+                .style("stroke", "#999")
+                .attr("stroke-width", 1)
+                .style("shape-rendering", "crispEdges")
+                .style("opacity", 0.5)
+                .attr("y1", -height)
+                .attr("y2", 0);
+
+            focus.append("text").attr("class", "lineHoverDate")
+                .attr("text-anchor", "middle")
+                .attr("font-size", 12);
+
+            var overlay = svg_multiline.append("rect")
+                .attr("class", "overlay")
+                .attr("x", margin_multiline.left)
+                .attr("width", width - margin_multiline.left)
+                .attr("height", height)
+
+            update(d3.select('#selectbox').property('value'), 10);
+
+            function update(input, speed) {
+                svg_multiline.selectAll("path").remove();
+                var copy = keys.filter(f => f.includes(input));
+
+                var cities = copy.map(function(id) {
+                    return {
+                        id: id,
+                        values: data.map(d => {
+                            return {
+                                date: d.date,
+                                degrees: +d[id]
+                            }
+                        })
+                    };
+                });
+
+                //filter out Nan values
+                cities.forEach(
+                    function(d) {
+                        d.values = d.values.filter(e => !isNaN(e.degrees));
+                    }
+                );
+
+                // define domain of the x and y scale
+                y.domain([
+                    0, //d3.min(cities, d => d3.min(d.values, c => c.degrees)),
+                    d3.max(cities, d => d3.max(d.values, c => c.degrees))
+                ]);
+
+                x.domain([
+                    d3.min(cities, d => d3.min(d.values, c => c.date)),
+                    d3.max(cities, d => d3.max(d.values, c => c.date))
+                ]);
+
+                // Style the x axis
+                svg_multiline.selectAll(".x-axis").transition()
+                    .duration(speed)
+                    .call(d3.axisBottom(x).tickFormat(d3.timeFormat("%Y")).ticks(25))
+
+                svg_multiline.selectAll(".x-axis").selectAll("text").attr("transform", "rotate(-35)")
+                    .style("text-anchor", "end");
+
+                svg_multiline.selectAll(".y-axis").transition()
+                    .duration(speed)
+                    .call(d3.axisLeft(y).tickSize(-width + margin_multiline.right + margin_multiline.left))
+
+                // Remove the paths before recreating them with the current filtered dataset
+                svg_multiline.selectAll(".cities").remove();
+
+                var city = svg_multiline.selectAll(".cities")
+                    .data(cities);
+
+                city.exit().remove();
+
+                var paths = city
+                    .enter()
+                    .insert("g", ".focus")
+                    .append("path")
+                    .attr("stroke-width", 1.5)
+                    .style("mix-blend-mode", "multiply")
+                    .attr("class", "line cities")
+                    .attr("id", d => d.id.replace(/\s+/g, ""))
+                    .style("stroke", startColor) //d => z(d.id))
+                    .merge(city)
+                    .transition().duration(speed)
+                    .attr("d", d => line(d.values))
+
+                var totalLength = width * 7;
+
+                paths.attr("stroke-dasharray", totalLength + " " + totalLength)
+                    .attr("stroke-dashoffset", totalLength)
+                    .transition()
+                    .duration(3000)
+                    .ease(d3.easeLinear)
+                    .attr("stroke-dashoffset", 0)
+
+                tooltip(copy);
+            }
+
+            function tooltip(copy) {
+
+                // Remove the lineHoverText objects before recreating them with the currently selected dataset
+                focus.selectAll(".lineHoverText").remove();
+
+                var labels = focus.selectAll(".lineHoverText")
+                    .data(copy)
+
+                labels.enter().append("text")
+                    .attr("class", "lineHoverText")
+                    .attr("id", d => "line" + d.replace(/\s+/g, ""))
+                    .style("fill", startColor) //d => z(d))
+                    .attr("text-anchor", "start")
+                    .attr("font-size", 12)
+                    .merge(labels);
+
+                // Remove the tooltip circles before recreating them  . . .
+                svg_multiline.selectAll(".hoverCircle").remove();
+
+
+                var circles = focus.selectAll(".hoverCircle")
+                    .data(copy)
+
+                circles.enter().append("circle")
+                    .attr("class", "hoverCircle")
+                    .style("fill", startColor) //d => z(d))
+                    .attr("id", d => "circle" + d.replace(/\s+/g, ""))
+                    .attr("r", 2.5)
+                    .merge(circles);
+
+                svg_multiline.selectAll(".overlay")
+                    .on("mouseover", function() {
+                        d3.selectAll(".line")
+                            .style("stroke", offColor);
+                        focus.style("display", null);
+                    })
+                    .on("mouseout", function() {
+                        d3.selectAll(".line")
+
+                            .style("stroke", startColor);
+                        focus.style("display", "none");
+
+                    })
+                    .on("mousemove", mousemove);
+
+                function mousemove() {
+                    d3.event.preventDefault();
+                    d3.selectAll(".line")
+                        .style("stroke", offColor);
+
+                    var x0 = x.invert(d3.mouse(this)[0]),
+                        i = bisectDate(data, x0, 1);
+                    var d0 = data[i - 1],
+                        d1 = data[i];
+                    if (typeof(d1) === "undefined") {
+                        var d = d0;
+                    } else {
+                        if (typeof(d0) === "undefined") {
+                            var d = d1;
+                        } else {
+
+                            var d = x0 - d0.date >= d1.date - x0 ? d1 : d0;
+                        }
+                    }
+
+                    var y0 = y.invert(d3.mouse(this)[1]);
+                    var closestStateLine = copy[d3.minIndex(copy, function(x) {
+                        return Math.abs(d[x] - y0);
+                    })];
+
+                    d3.select("#" + closestStateLine.replace(/\s+/g, ""))
+                        .style("stroke", startColor)
+                        .raise();
+
+                    focus.select(".lineHover")
+                        .attr("transform", "translate(" + x(d.date) + "," + height + ")")
+                        .style("stroke", "transparent");
+
+                    focus.select(".lineHoverDate")
+                        .attr("transform",
+                            "translate(" + x(d.date) + "," + (height + margin_multiline.bottom) + ")")
+                        .text("");
+
+                    focus.selectAll(".hoverCircle")
+                        .attr("cy", e => y(d[e]))
+                        .attr("cx", x(d.date));
+
+                    // Display only the circle of the line closest to the mouse
+                    d3.selectAll(".hoverCircle")
+                        .style("display", "none");
+                    d3.select("#circle" + closestStateLine.replace(/\s+/g, ""))
+                        .style("display", null);
+
+                    focus.selectAll(".lineHoverText")
+                        .style("display", "none");
+                    focus.select("#line" + closestStateLine.replace(/\s+/g, ""))
+                        .attr("x", x(d.date))
+                        .attr("y", e => y(d[e]) - 5)
+                        .text(e => e.replace("_state", "").replace("_us", "") + ": " + formatValue(d[e]))
+                        .style("display", null);
+
+
+                    x(d.date) > (width - width / 4) ?
+                        focus.selectAll("text.lineHoverText")
+                        .attr("text-anchor", "end")
+                        .attr("dx", -10) :
+                        focus.selectAll("text.lineHoverText")
+                        .attr("text-anchor", "start")
+                        .attr("dx", 10)
+                }
+            }
+
+            var selectbox = d3.select("#selectbox")
+                .on("change", function() {
+                    update(this.value, 750);
+                })
+
+        }
+
+    </script>
