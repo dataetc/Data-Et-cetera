@@ -55,8 +55,8 @@
 
         //Load the files
         queue()
-            .defer(d3.json, "United States map.json")
-            .defer(d3.csv, "Unemployment claims, this week vs one year earlier.csv")
+            .defer(d3.json, "./data/United States map.json")
+            .defer(d3.csv, "./data/Unemployment claims, this week vs one year earlier.csv")
             .await(ready);
 
         //Moves selection to front
