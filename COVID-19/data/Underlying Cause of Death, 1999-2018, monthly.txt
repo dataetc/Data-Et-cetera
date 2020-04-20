@@ -1,0 +1,1602 @@
+"Notes"	"Month"	"Month Code"	"ICD-10 113 Cause List"	"ICD-10 113 Cause List Code"	Deaths	Population	Crude Rate
+	"Jan., 2018"	"2018/01"	"#Salmonella infections (A01-A02)"	"GR113-001"	2	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Shigellosis and amebiasis (A03,A06)"	"GR113-002"	1	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	898	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Tuberculosis (A16-A19)"	"GR113-004"	59	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Respiratory tuberculosis (A16)"	"GR113-005"	35	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other tuberculosis (A17-A19)"	"GR113-006"	24	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Whooping cough (A37)"	"GR113-007"	1	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Meningococcal infection (A39)"	"GR113-009"	1	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Septicemia (A40-A41)"	"GR113-010"	4502	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Syphilis (A50-A53)"	"GR113-011"	8	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Viral hepatitis (B15-B19)"	"GR113-015"	504	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	582	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Malaria (B50-B54)"	"GR113-017"	2	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	1001	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	52876	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	886	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1389	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	947	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4818	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2331	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3779	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	342	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	12779	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant melanoma of skin (C43)"	"GR113-028"	684	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3787	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	366	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	885	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1139	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2872	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1252	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1457	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1465	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	5182	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Hodgkin disease (C81)"	"GR113-038"	89	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1832	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Leukemia (C91-C95)"	"GR113-040"	2032	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1221	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	8	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	6516	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1416	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Anemias (D50-D64)"	"GR113-045"	474	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	8674	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	864	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Malnutrition (E40-E46)"	"GR113-048"	831	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	33	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Meningitis (G00,G03)"	"GR113-050"	69	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Parkinson disease (G20-G21)"	"GR113-051"	3548	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Alzheimer disease (G30)"	"GR113-052"	13410	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	87912	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	67024	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	382	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Hypertensive heart disease (I11)"	"GR113-056"	5124	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	831	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	37683	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	11282	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	465	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	25936	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	6579	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	19357	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other heart diseases (I26-I51)"	"GR113-064"	23004	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Acute and subacute endocarditis (I33)"	"GR113-065"	150	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	94	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Heart failure (I50)"	"GR113-067"	8276	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	14484	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	3769	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	14653	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Atherosclerosis (I70)"	"GR113-071"	583	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1883	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	957	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	926	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	488	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	12164	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Influenza (J09-J11)"	"GR113-077"	5145	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Pneumonia (J12-J18)"	"GR113-078"	7019	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	77	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	57	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	20	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	18271	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	86	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Emphysema (J43)"	"GR113-084"	829	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Asthma (J45-J46)"	"GR113-085"	396	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	16960	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	68	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	2192	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	4603	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Peptic ulcer (K25-K28)"	"GR113-090"	329	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Diseases of appendix (K35-K38)"	"GR113-091"	30	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Hernia (K40-K46)"	"GR113-092"	204	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3948	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Alcoholic liver disease (K70)"	"GR113-094"	2095	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1853	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	353	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	5346	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	73	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	25	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Renal failure (N17-N19)"	"GR113-100"	5245	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other disorders of kidney (N25,N27)"	"GR113-101"	3	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	84	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Hyperplasia of prostate (N40)"	"GR113-103"	54	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	12	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	89	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	5	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	84	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	934	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	917	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	3138	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"All other diseases (Residual) "	"GR113-111"	35313	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	14748	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3191	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3010	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	73	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	108	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	11557	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Falls (W00-W19)"	"GR113-118"	3569	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	47	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	177	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	506	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5366	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1892	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	3966	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2169	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	1797	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1674	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1267	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	407	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	51	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	489	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	37	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	452	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Operations of war and their sequelae (Y36,Y89.1)"	"GR113-134"	2	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	396	Not Applicable	Not Applicable
+	"Jan., 2018"	"2018/01"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	597	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Salmonella infections (A01-A02)"	"GR113-001"	4	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Shigellosis and amebiasis (A03,A06)"	"GR113-002"	1	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	729	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Tuberculosis (A16-A19)"	"GR113-004"	60	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Respiratory tuberculosis (A16)"	"GR113-005"	42	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other tuberculosis (A17-A19)"	"GR113-006"	18	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Meningococcal infection (A39)"	"GR113-009"	4	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Septicemia (A40-A41)"	"GR113-010"	3660	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Syphilis (A50-A53)"	"GR113-011"	8	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Viral hepatitis (B15-B19)"	"GR113-015"	427	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	455	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	876	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	46447	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	773	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1234	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	833	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4074	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2148	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3302	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	285	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	11135	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant melanoma of skin (C43)"	"GR113-028"	634	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3329	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	319	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	826	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1087	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2455	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1139	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1305	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1344	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4595	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Hodgkin disease (C81)"	"GR113-038"	75	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1639	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Leukemia (C91-C95)"	"GR113-040"	1842	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1030	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	9	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	5630	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1251	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Anemias (D50-D64)"	"GR113-045"	439	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	7028	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	756	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Malnutrition (E40-E46)"	"GR113-048"	735	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	21	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Meningitis (G00,G03)"	"GR113-050"	65	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Parkinson disease (G20-G21)"	"GR113-051"	2789	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Alzheimer disease (G30)"	"GR113-052"	10623	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	72061	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	54673	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	280	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Hypertensive heart disease (I11)"	"GR113-056"	4224	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	641	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	30574	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	9122	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	384	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	21068	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5330	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	15738	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other heart diseases (I26-I51)"	"GR113-064"	18954	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Acute and subacute endocarditis (I33)"	"GR113-065"	144	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	70	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Heart failure (I50)"	"GR113-067"	6913	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	11827	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	3062	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	12176	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Atherosclerosis (I70)"	"GR113-071"	496	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1654	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	820	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	834	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	442	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	8554	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Influenza (J09-J11)"	"GR113-077"	3307	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Pneumonia (J12-J18)"	"GR113-078"	5247	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	41	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	28	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	13	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	14579	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	58	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Emphysema (J43)"	"GR113-084"	673	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Asthma (J45-J46)"	"GR113-085"	278	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	13570	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	63	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1747	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3879	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Peptic ulcer (K25-K28)"	"GR113-090"	279	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Diseases of appendix (K35-K38)"	"GR113-091"	21	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Hernia (K40-K46)"	"GR113-092"	167	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3338	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Alcoholic liver disease (K70)"	"GR113-094"	1761	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1577	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	309	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	4398	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	57	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	15	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Renal failure (N17-N19)"	"GR113-100"	4323	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other disorders of kidney (N25,N27)"	"GR113-101"	3	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	64	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Hyperplasia of prostate (N40)"	"GR113-103"	41	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	20	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	85	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	1	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	84	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	836	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	812	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2560	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"All other diseases (Residual) "	"GR113-111"	28548	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	12686	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	2883	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	2734	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	58	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	91	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	9803	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Falls (W00-W19)"	"GR113-118"	3050	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	35	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	162	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	270	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	4839	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1447	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	3596	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	1836	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	1760	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1376	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1028	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	348	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	42	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	477	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	23	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	454	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	355	Not Applicable	Not Applicable
+	"Feb., 2018"	"2018/02"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	517	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Salmonella infections (A01-A02)"	"GR113-001"	3	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	788	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Tuberculosis (A16-A19)"	"GR113-004"	55	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Respiratory tuberculosis (A16)"	"GR113-005"	38	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other tuberculosis (A17-A19)"	"GR113-006"	17	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Meningococcal infection (A39)"	"GR113-009"	3	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Septicemia (A40-A41)"	"GR113-010"	3673	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Syphilis (A50-A53)"	"GR113-011"	4	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Viral hepatitis (B15-B19)"	"GR113-015"	394	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	446	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Malaria (B50-B54)"	"GR113-017"	2	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	797	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	50689	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	841	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1271	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	909	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4495	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2384	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3738	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	308	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	12051	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant melanoma of skin (C43)"	"GR113-028"	711	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3651	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	365	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	993	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1134	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2631	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1207	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1445	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1437	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4920	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Hodgkin disease (C81)"	"GR113-038"	103	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1747	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Leukemia (C91-C95)"	"GR113-040"	2010	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1054	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	6	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	6198	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1314	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Anemias (D50-D64)"	"GR113-045"	488	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	7415	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	806	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Malnutrition (E40-E46)"	"GR113-048"	774	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	32	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Meningitis (G00,G03)"	"GR113-050"	55	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Parkinson disease (G20-G21)"	"GR113-051"	2894	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Alzheimer disease (G30)"	"GR113-052"	10815	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	76612	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	58301	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	320	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Hypertensive heart disease (I11)"	"GR113-056"	4606	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	764	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	32635	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	9693	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	388	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	22554	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5650	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	16904	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other heart diseases (I26-I51)"	"GR113-064"	19976	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Acute and subacute endocarditis (I33)"	"GR113-065"	154	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	82	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Heart failure (I50)"	"GR113-067"	7345	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	12395	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	3201	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	12927	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Atherosclerosis (I70)"	"GR113-071"	443	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1740	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	917	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	823	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	435	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	6133	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Influenza (J09-J11)"	"GR113-077"	1409	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Pneumonia (J12-J18)"	"GR113-078"	4724	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	34	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	28	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	6	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	14995	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	43	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Emphysema (J43)"	"GR113-084"	706	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Asthma (J45-J46)"	"GR113-085"	314	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	13932	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	67	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1760	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3990	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Peptic ulcer (K25-K28)"	"GR113-090"	331	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Diseases of appendix (K35-K38)"	"GR113-091"	31	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Hernia (K40-K46)"	"GR113-092"	206	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3648	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Alcoholic liver disease (K70)"	"GR113-094"	1942	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1706	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	278	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	4534	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	52	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	31	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Renal failure (N17-N19)"	"GR113-100"	4449	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other disorders of kidney (N25,N27)"	"GR113-101"	2	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	75	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Hyperplasia of prostate (N40)"	"GR113-103"	50	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	13	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	92	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	2	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	90	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	948	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	864	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2665	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"All other diseases (Residual) "	"GR113-111"	30062	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	13926	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3216	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3015	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	86	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	115	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10710	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Falls (W00-W19)"	"GR113-118"	3192	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	32	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	212	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	319	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5376	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1579	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	4011	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2092	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	1919	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1449	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1057	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	392	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	61	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	522	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	29	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	493	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Operations of war and their sequelae (Y36,Y89.1)"	"GR113-134"	1	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	371	Not Applicable	Not Applicable
+	"Mar., 2018"	"2018/03"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	528	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Salmonella infections (A01-A02)"	"GR113-001"	2	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	687	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Tuberculosis (A16-A19)"	"GR113-004"	36	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Respiratory tuberculosis (A16)"	"GR113-005"	20	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other tuberculosis (A17-A19)"	"GR113-006"	16	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Whooping cough (A37)"	"GR113-007"	3	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Meningococcal infection (A39)"	"GR113-009"	3	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Septicemia (A40-A41)"	"GR113-010"	3278	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Syphilis (A50-A53)"	"GR113-011"	2	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Viral hepatitis (B15-B19)"	"GR113-015"	419	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	451	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Malaria (B50-B54)"	"GR113-017"	1	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	626	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	48786	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	796	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1285	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	929	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4309	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2263	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3681	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	284	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	11810	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant melanoma of skin (C43)"	"GR113-028"	679	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3454	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	341	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	869	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1147	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2558	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1098	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1326	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1377	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4651	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Hodgkin disease (C81)"	"GR113-038"	77	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1620	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Leukemia (C91-C95)"	"GR113-040"	1940	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1005	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	9	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	5929	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1331	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Anemias (D50-D64)"	"GR113-045"	446	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	7032	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	770	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Malnutrition (E40-E46)"	"GR113-048"	752	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	18	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Meningitis (G00,G03)"	"GR113-050"	59	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Parkinson disease (G20-G21)"	"GR113-051"	2700	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Alzheimer disease (G30)"	"GR113-052"	9902	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	71535	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	54235	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	321	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Hypertensive heart disease (I11)"	"GR113-056"	4078	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	703	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	30170	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	9080	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	343	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	20747	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5235	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	15512	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other heart diseases (I26-I51)"	"GR113-064"	18963	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Acute and subacute endocarditis (I33)"	"GR113-065"	152	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	77	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Heart failure (I50)"	"GR113-067"	7083	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	11651	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	2885	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	12312	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Atherosclerosis (I70)"	"GR113-071"	438	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1665	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	816	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	849	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	380	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	4633	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Influenza (J09-J11)"	"GR113-077"	608	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Pneumonia (J12-J18)"	"GR113-078"	4025	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	22	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	14	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	8	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	13857	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	48	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Emphysema (J43)"	"GR113-084"	640	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Asthma (J45-J46)"	"GR113-085"	315	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	12854	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	55	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1629	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3688	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Peptic ulcer (K25-K28)"	"GR113-090"	272	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Diseases of appendix (K35-K38)"	"GR113-091"	27	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Hernia (K40-K46)"	"GR113-092"	163	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3480	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Alcoholic liver disease (K70)"	"GR113-094"	1798	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1682	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	321	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	4219	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	57	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	18	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Renal failure (N17-N19)"	"GR113-100"	4144	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	85	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Hyperplasia of prostate (N40)"	"GR113-103"	58	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	13	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	74	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	1	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	73	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	860	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	844	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2552	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"All other diseases (Residual) "	"GR113-111"	28182	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	13275	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3194	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	2979	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	67	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	148	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10081	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Falls (W00-W19)"	"GR113-118"	3006	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	36	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	247	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	251	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5124	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1417	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	3920	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2023	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	1897	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1572	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1134	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	438	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	51	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	484	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	30	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	454	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Operations of war and their sequelae (Y36,Y89.1)"	"GR113-134"	2	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	377	Not Applicable	Not Applicable
+	"Apr., 2018"	"2018/04"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	479	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Salmonella infections (A01-A02)"	"GR113-001"	3	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	673	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Tuberculosis (A16-A19)"	"GR113-004"	42	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Respiratory tuberculosis (A16)"	"GR113-005"	28	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other tuberculosis (A17-A19)"	"GR113-006"	14	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Meningococcal infection (A39)"	"GR113-009"	2	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Septicemia (A40-A41)"	"GR113-010"	3092	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Viral hepatitis (B15-B19)"	"GR113-015"	418	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	450	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	566	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	49582	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	851	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1268	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	941	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4299	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2305	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3723	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	334	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	11832	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant melanoma of skin (C43)"	"GR113-028"	712	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3537	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	350	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	903	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1192	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2606	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1210	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1321	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1434	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4705	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Hodgkin disease (C81)"	"GR113-038"	102	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1611	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Leukemia (C91-C95)"	"GR113-040"	1907	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1075	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	10	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	6059	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1274	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Anemias (D50-D64)"	"GR113-045"	405	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	6805	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	726	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Malnutrition (E40-E46)"	"GR113-048"	706	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	20	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Meningitis (G00,G03)"	"GR113-050"	45	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Parkinson disease (G20-G21)"	"GR113-051"	2646	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Alzheimer disease (G30)"	"GR113-052"	9333	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	69984	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	53298	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	307	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Hypertensive heart disease (I11)"	"GR113-056"	4104	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	691	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	29553	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	8745	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	349	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	20459	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5324	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	15135	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other heart diseases (I26-I51)"	"GR113-064"	18643	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Acute and subacute endocarditis (I33)"	"GR113-065"	134	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	87	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Heart failure (I50)"	"GR113-067"	6992	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	11430	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	2874	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	11812	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Atherosclerosis (I70)"	"GR113-071"	361	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1639	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	787	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	852	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	368	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	3588	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Influenza (J09-J11)"	"GR113-077"	153	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Pneumonia (J12-J18)"	"GR113-078"	3435	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	17	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	13	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	4	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	13218	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	29	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Emphysema (J43)"	"GR113-084"	656	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Asthma (J45-J46)"	"GR113-085"	282	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	12251	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	44	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1504	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3606	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Peptic ulcer (K25-K28)"	"GR113-090"	316	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Diseases of appendix (K35-K38)"	"GR113-091"	35	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Hernia (K40-K46)"	"GR113-092"	194	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3451	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Alcoholic liver disease (K70)"	"GR113-094"	1846	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1605	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	293	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	4081	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	51	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	22	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Renal failure (N17-N19)"	"GR113-100"	4007	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other disorders of kidney (N25,N27)"	"GR113-101"	1	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	64	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Hyperplasia of prostate (N40)"	"GR113-103"	40	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	17	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	70	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	2	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	68	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	902	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	781	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2508	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"All other diseases (Residual) "	"GR113-111"	26965	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	14025	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3694	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3443	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	100	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	151	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10331	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Falls (W00-W19)"	"GR113-118"	2976	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	43	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	390	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	171	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5308	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1443	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	4190	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2123	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	2067	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1559	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1156	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	403	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	51	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	475	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	37	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	438	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	364	Not Applicable	Not Applicable
+	"May, 2018"	"2018/05"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	466	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Salmonella infections (A01-A02)"	"GR113-001"	6	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	609	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Tuberculosis (A16-A19)"	"GR113-004"	35	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Respiratory tuberculosis (A16)"	"GR113-005"	24	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other tuberculosis (A17-A19)"	"GR113-006"	11	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Meningococcal infection (A39)"	"GR113-009"	1	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Septicemia (A40-A41)"	"GR113-010"	2933	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Viral hepatitis (B15-B19)"	"GR113-015"	387	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	443	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	574	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	48344	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	849	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1233	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	914	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4279	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2279	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3639	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	299	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	11518	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant melanoma of skin (C43)"	"GR113-028"	647	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3500	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	349	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	911	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1090	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2511	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1137	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1368	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1367	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4599	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Hodgkin disease (C81)"	"GR113-038"	97	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1554	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Leukemia (C91-C95)"	"GR113-040"	1891	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1050	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	7	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	5855	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1196	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Anemias (D50-D64)"	"GR113-045"	404	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	6481	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	780	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Malnutrition (E40-E46)"	"GR113-048"	751	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	29	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Meningitis (G00,G03)"	"GR113-050"	41	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Parkinson disease (G20-G21)"	"GR113-051"	2475	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Alzheimer disease (G30)"	"GR113-052"	8906	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	66519	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	50456	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	260	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Hypertensive heart disease (I11)"	"GR113-056"	4158	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	683	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	27878	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	8247	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	323	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	19308	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5086	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	14222	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other heart diseases (I26-I51)"	"GR113-064"	17477	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Acute and subacute endocarditis (I33)"	"GR113-065"	130	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	89	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Heart failure (I50)"	"GR113-067"	6541	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	10717	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	2732	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	11445	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Atherosclerosis (I70)"	"GR113-071"	343	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1543	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	739	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	804	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	352	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	3252	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Influenza (J09-J11)"	"GR113-077"	21	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Pneumonia (J12-J18)"	"GR113-078"	3231	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	21	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	16	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	5	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	12206	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	29	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Emphysema (J43)"	"GR113-084"	597	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Asthma (J45-J46)"	"GR113-085"	224	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	11356	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	60	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1416	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3327	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Peptic ulcer (K25-K28)"	"GR113-090"	241	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Diseases of appendix (K35-K38)"	"GR113-091"	38	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Hernia (K40-K46)"	"GR113-092"	184	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3389	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Alcoholic liver disease (K70)"	"GR113-094"	1877	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1512	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	337	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	3904	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	36	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	19	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Renal failure (N17-N19)"	"GR113-100"	3847	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other disorders of kidney (N25,N27)"	"GR113-101"	2	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	61	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Hyperplasia of prostate (N40)"	"GR113-103"	44	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	8	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	64	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	1	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	63	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	855	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	742	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2521	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"All other diseases (Residual) "	"GR113-111"	25746	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	14200	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3783	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3514	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	99	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	170	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10417	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Falls (W00-W19)"	"GR113-118"	2987	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	37	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	543	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	158	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5280	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1412	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	4378	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2015	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	2363	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1674	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1229	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	445	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	56	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	521	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	34	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	487	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Operations of war and their sequelae (Y36,Y89.1)"	"GR113-134"	1	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	371	Not Applicable	Not Applicable
+	"Jun., 2018"	"2018/06"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	397	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Salmonella infections (A01-A02)"	"GR113-001"	4	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	610	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Tuberculosis (A16-A19)"	"GR113-004"	31	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Respiratory tuberculosis (A16)"	"GR113-005"	21	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other tuberculosis (A17-A19)"	"GR113-006"	10	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Whooping cough (A37)"	"GR113-007"	1	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Meningococcal infection (A39)"	"GR113-009"	2	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Septicemia (A40-A41)"	"GR113-010"	3178	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Syphilis (A50-A53)"	"GR113-011"	3	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Arthropod-borne viral encephalitis (A83-A84,A85.2)"	"GR113-013"	1	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Viral hepatitis (B15-B19)"	"GR113-015"	354	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	459	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	605	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	49870	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	866	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1322	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	920	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4457	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2265	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3792	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	312	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	11757	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant melanoma of skin (C43)"	"GR113-028"	726	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3552	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	329	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	977	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1159	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2656	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1216	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1364	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1384	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4645	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Hodgkin disease (C81)"	"GR113-038"	95	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1621	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Leukemia (C91-C95)"	"GR113-040"	1930	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	992	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	7	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	6171	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1264	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Anemias (D50-D64)"	"GR113-045"	420	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	6612	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	779	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Malnutrition (E40-E46)"	"GR113-048"	761	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	18	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Meningitis (G00,G03)"	"GR113-050"	43	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Parkinson disease (G20-G21)"	"GR113-051"	2654	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Alzheimer disease (G30)"	"GR113-052"	9082	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	67677	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	51396	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	278	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Hypertensive heart disease (I11)"	"GR113-056"	4100	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	690	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	28921	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	8254	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	363	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	20304	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5481	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	14823	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other heart diseases (I26-I51)"	"GR113-064"	17407	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Acute and subacute endocarditis (I33)"	"GR113-065"	114	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	74	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Heart failure (I50)"	"GR113-067"	6424	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	10795	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	2708	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	11656	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Atherosclerosis (I70)"	"GR113-071"	411	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1506	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	713	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	793	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	373	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	3153	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Influenza (J09-J11)"	"GR113-077"	21	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Pneumonia (J12-J18)"	"GR113-078"	3132	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	15	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	11	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	4	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	11720	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	25	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Emphysema (J43)"	"GR113-084"	555	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Asthma (J45-J46)"	"GR113-085"	252	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	10888	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	57	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1431	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3438	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Peptic ulcer (K25-K28)"	"GR113-090"	234	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Diseases of appendix (K35-K38)"	"GR113-091"	32	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Hernia (K40-K46)"	"GR113-092"	209	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3586	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Alcoholic liver disease (K70)"	"GR113-094"	2006	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1580	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	312	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	3947	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	55	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	24	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Renal failure (N17-N19)"	"GR113-100"	3865	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other disorders of kidney (N25,N27)"	"GR113-101"	3	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	61	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Hyperplasia of prostate (N40)"	"GR113-103"	44	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	16	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	96	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	5	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	91	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	933	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	802	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2626	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"All other diseases (Residual) "	"GR113-111"	26576	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	14813	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3824	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3552	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	118	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	154	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10989	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Falls (W00-W19)"	"GR113-118"	3012	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	32	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	667	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	208	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5430	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1640	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	4356	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2138	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	2218	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1755	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1291	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	464	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	52	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	490	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	30	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	460	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Operations of war and their sequelae (Y36,Y89.1)"	"GR113-134"	1	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	334	Not Applicable	Not Applicable
+	"Jul., 2018"	"2018/07"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	416	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Salmonella infections (A01-A02)"	"GR113-001"	6	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	569	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Tuberculosis (A16-A19)"	"GR113-004"	36	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Respiratory tuberculosis (A16)"	"GR113-005"	19	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other tuberculosis (A17-A19)"	"GR113-006"	17	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Whooping cough (A37)"	"GR113-007"	1	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Meningococcal infection (A39)"	"GR113-009"	2	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Septicemia (A40-A41)"	"GR113-010"	3134	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Syphilis (A50-A53)"	"GR113-011"	2	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Arthropod-borne viral encephalitis (A83-A84,A85.2)"	"GR113-013"	1	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Viral hepatitis (B15-B19)"	"GR113-015"	381	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	398	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	631	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	50582	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	914	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1283	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	943	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4462	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2397	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3778	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	317	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	11793	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant melanoma of skin (C43)"	"GR113-028"	735	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3632	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	372	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	988	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1150	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2653	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1186	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1368	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1490	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4821	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Hodgkin disease (C81)"	"GR113-038"	74	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1736	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Leukemia (C91-C95)"	"GR113-040"	1978	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1018	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	15	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	6300	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1297	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Anemias (D50-D64)"	"GR113-045"	405	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	6598	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	776	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Malnutrition (E40-E46)"	"GR113-048"	762	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	14	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Meningitis (G00,G03)"	"GR113-050"	54	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Parkinson disease (G20-G21)"	"GR113-051"	2628	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Alzheimer disease (G30)"	"GR113-052"	9277	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	66910	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	50652	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	282	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Hypertensive heart disease (I11)"	"GR113-056"	4072	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	684	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	28160	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	8382	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	325	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	19453	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	4973	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	14480	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other heart diseases (I26-I51)"	"GR113-064"	17454	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Acute and subacute endocarditis (I33)"	"GR113-065"	119	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	86	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Heart failure (I50)"	"GR113-067"	6548	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	10701	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	2731	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	11640	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Atherosclerosis (I70)"	"GR113-071"	347	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1540	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	755	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	785	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	423	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	3011	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Influenza (J09-J11)"	"GR113-077"	18	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Pneumonia (J12-J18)"	"GR113-078"	2993	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	13	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	8	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	5	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	11339	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	39	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Emphysema (J43)"	"GR113-084"	551	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Asthma (J45-J46)"	"GR113-085"	229	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	10520	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	51	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1516	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3210	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Peptic ulcer (K25-K28)"	"GR113-090"	255	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Diseases of appendix (K35-K38)"	"GR113-091"	43	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Hernia (K40-K46)"	"GR113-092"	170	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3587	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Alcoholic liver disease (K70)"	"GR113-094"	1979	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1608	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	327	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	4083	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	58	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	27	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Renal failure (N17-N19)"	"GR113-100"	3994	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other disorders of kidney (N25,N27)"	"GR113-101"	4	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	76	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Hyperplasia of prostate (N40)"	"GR113-103"	40	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	9	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	97	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	4	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	93	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	983	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	748	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2668	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"All other diseases (Residual) "	"GR113-111"	26993	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	14116	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3772	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3490	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	124	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	158	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10344	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Falls (W00-W19)"	"GR113-118"	2917	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	33	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	463	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	146	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5344	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1441	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	4300	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2147	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	2153	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1607	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1162	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	445	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	62	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	478	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	33	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	445	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Operations of war and their sequelae (Y36,Y89.1)"	"GR113-134"	1	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	360	Not Applicable	Not Applicable
+	"Aug., 2018"	"2018/08"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	386	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Salmonella infections (A01-A02)"	"GR113-001"	11	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Shigellosis and amebiasis (A03,A06)"	"GR113-002"	2	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	592	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Tuberculosis (A16-A19)"	"GR113-004"	40	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Respiratory tuberculosis (A16)"	"GR113-005"	22	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other tuberculosis (A17-A19)"	"GR113-006"	18	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Meningococcal infection (A39)"	"GR113-009"	2	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Septicemia (A40-A41)"	"GR113-010"	3092	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Syphilis (A50-A53)"	"GR113-011"	4	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Arthropod-borne viral encephalitis (A83-A84,A85.2)"	"GR113-013"	1	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Viral hepatitis (B15-B19)"	"GR113-015"	368	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	408	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	654	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	49018	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	798	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1289	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	914	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4378	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2265	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3827	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	276	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	11559	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant melanoma of skin (C43)"	"GR113-028"	648	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3432	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	312	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	920	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1075	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2543	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1171	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1375	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1413	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4843	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Hodgkin disease (C81)"	"GR113-038"	82	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1726	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Leukemia (C91-C95)"	"GR113-040"	1927	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1098	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	10	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	5980	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1283	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Anemias (D50-D64)"	"GR113-045"	440	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	6458	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	744	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Malnutrition (E40-E46)"	"GR113-048"	723	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	21	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Meningitis (G00,G03)"	"GR113-050"	52	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Parkinson disease (G20-G21)"	"GR113-051"	2621	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Alzheimer disease (G30)"	"GR113-052"	9250	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	65025	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	49112	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	274	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Hypertensive heart disease (I11)"	"GR113-056"	3917	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	655	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	27318	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	8035	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	327	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	18956	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	4872	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	14084	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other heart diseases (I26-I51)"	"GR113-064"	16948	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Acute and subacute endocarditis (I33)"	"GR113-065"	137	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	79	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Heart failure (I50)"	"GR113-067"	6270	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	10462	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	2763	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	11296	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Atherosclerosis (I70)"	"GR113-071"	345	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1509	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	772	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	737	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	382	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	3082	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Influenza (J09-J11)"	"GR113-077"	30	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Pneumonia (J12-J18)"	"GR113-078"	3052	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	12	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	10	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	2	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	11061	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	34	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Emphysema (J43)"	"GR113-084"	568	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Asthma (J45-J46)"	"GR113-085"	248	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	10211	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	50	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1386	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3238	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Peptic ulcer (K25-K28)"	"GR113-090"	245	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Diseases of appendix (K35-K38)"	"GR113-091"	28	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Hernia (K40-K46)"	"GR113-092"	200	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3437	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Alcoholic liver disease (K70)"	"GR113-094"	1844	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1593	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	274	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	3885	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	47	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	17	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Renal failure (N17-N19)"	"GR113-100"	3819	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other disorders of kidney (N25,N27)"	"GR113-101"	2	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	66	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Hyperplasia of prostate (N40)"	"GR113-103"	51	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	15	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	81	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	1	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	80	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	926	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	770	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2535	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"All other diseases (Residual) "	"GR113-111"	26420	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	13900	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3811	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3579	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	102	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	130	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10089	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Falls (W00-W19)"	"GR113-118"	3072	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	36	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	305	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	156	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5090	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1430	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	4136	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2052	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	2084	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1613	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1215	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	398	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	47	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	428	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	30	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	398	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	363	Not Applicable	Not Applicable
+	"Sep., 2018"	"2018/09"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	398	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Salmonella infections (A01-A02)"	"GR113-001"	8	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Shigellosis and amebiasis (A03,A06)"	"GR113-002"	1	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	569	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Tuberculosis (A16-A19)"	"GR113-004"	49	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Respiratory tuberculosis (A16)"	"GR113-005"	34	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other tuberculosis (A17-A19)"	"GR113-006"	15	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Whooping cough (A37)"	"GR113-007"	2	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Meningococcal infection (A39)"	"GR113-009"	1	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Septicemia (A40-A41)"	"GR113-010"	3359	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Syphilis (A50-A53)"	"GR113-011"	2	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Viral hepatitis (B15-B19)"	"GR113-015"	386	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	439	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Malaria (B50-B54)"	"GR113-017"	2	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	679	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	51631	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	872	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1314	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	947	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4560	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2388	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	4018	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	328	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	12127	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant melanoma of skin (C43)"	"GR113-028"	698	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3676	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	368	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	976	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1213	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2717	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1161	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1449	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1496	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4882	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Hodgkin disease (C81)"	"GR113-038"	84	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1681	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Leukemia (C91-C95)"	"GR113-040"	2017	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1094	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	6	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	6441	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1342	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Anemias (D50-D64)"	"GR113-045"	426	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	7028	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	824	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Malnutrition (E40-E46)"	"GR113-048"	803	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	21	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Meningitis (G00,G03)"	"GR113-050"	37	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Parkinson disease (G20-G21)"	"GR113-051"	2869	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Alzheimer disease (G30)"	"GR113-052"	10080	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	70680	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	53232	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	287	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Hypertensive heart disease (I11)"	"GR113-056"	4156	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	643	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	29720	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	8834	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	349	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	20537	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5174	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	15363	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other heart diseases (I26-I51)"	"GR113-064"	18426	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Acute and subacute endocarditis (I33)"	"GR113-065"	138	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	85	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Heart failure (I50)"	"GR113-067"	6831	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	11372	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	2979	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	12355	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Atherosclerosis (I70)"	"GR113-071"	375	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1739	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	868	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	871	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	398	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	3447	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Influenza (J09-J11)"	"GR113-077"	48	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Pneumonia (J12-J18)"	"GR113-078"	3399	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	23	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	18	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	5	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	12073	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	36	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Emphysema (J43)"	"GR113-084"	546	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Asthma (J45-J46)"	"GR113-085"	281	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	11210	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	55	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1511	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3510	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Peptic ulcer (K25-K28)"	"GR113-090"	260	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Diseases of appendix (K35-K38)"	"GR113-091"	29	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Hernia (K40-K46)"	"GR113-092"	203	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3629	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Alcoholic liver disease (K70)"	"GR113-094"	2016	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1613	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	326	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	4047	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	57	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	29	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Renal failure (N17-N19)"	"GR113-100"	3958	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other disorders of kidney (N25,N27)"	"GR113-101"	3	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	71	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Hyperplasia of prostate (N40)"	"GR113-103"	59	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	15	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	70	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	3	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	67	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	923	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	797	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2775	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"All other diseases (Residual) "	"GR113-111"	28605	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	14114	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3861	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3657	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	90	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	114	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10253	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Falls (W00-W19)"	"GR113-118"	3195	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	39	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	241	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	179	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5126	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1473	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	4127	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	2074	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	2053	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1512	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1141	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	371	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	42	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	438	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	22	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	416	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Operations of war and their sequelae (Y36,Y89.1)"	"GR113-134"	2	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	428	Not Applicable	Not Applicable
+	"Oct., 2018"	"2018/10"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	335	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Salmonella infections (A01-A02)"	"GR113-001"	2	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Shigellosis and amebiasis (A03,A06)"	"GR113-002"	1	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	551	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Tuberculosis (A16-A19)"	"GR113-004"	46	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Respiratory tuberculosis (A16)"	"GR113-005"	32	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other tuberculosis (A17-A19)"	"GR113-006"	14	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Whooping cough (A37)"	"GR113-007"	1	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Meningococcal infection (A39)"	"GR113-009"	5	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Septicemia (A40-A41)"	"GR113-010"	3197	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Syphilis (A50-A53)"	"GR113-011"	3	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Arthropod-borne viral encephalitis (A83-A84,A85.2)"	"GR113-013"	1	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Viral hepatitis (B15-B19)"	"GR113-015"	395	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	438	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	667	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	49827	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	857	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1269	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	916	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4411	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2328	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3762	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	368	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	11636	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant melanoma of skin (C43)"	"GR113-028"	650	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3531	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	309	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	966	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1166	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2670	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1166	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1350	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1486	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	4721	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Hodgkin disease (C81)"	"GR113-038"	81	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1701	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Leukemia (C91-C95)"	"GR113-040"	1890	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1037	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	12	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	6265	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1311	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Anemias (D50-D64)"	"GR113-045"	447	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	7152	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	837	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Malnutrition (E40-E46)"	"GR113-048"	818	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	19	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Meningitis (G00,G03)"	"GR113-050"	56	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Parkinson disease (G20-G21)"	"GR113-051"	2859	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Alzheimer disease (G30)"	"GR113-052"	10391	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	71837	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	54389	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	301	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Hypertensive heart disease (I11)"	"GR113-056"	4388	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	719	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	30542	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	9231	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	353	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	20958	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5394	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	15564	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other heart diseases (I26-I51)"	"GR113-064"	18439	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Acute and subacute endocarditis (I33)"	"GR113-065"	134	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	78	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Heart failure (I50)"	"GR113-067"	6776	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	11451	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	2921	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	12427	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Atherosclerosis (I70)"	"GR113-071"	404	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1696	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	881	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	815	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	392	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	3614	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Influenza (J09-J11)"	"GR113-077"	92	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Pneumonia (J12-J18)"	"GR113-078"	3522	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	20	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	15	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	5	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	12258	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	30	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Emphysema (J43)"	"GR113-084"	580	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Asthma (J45-J46)"	"GR113-085"	312	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	11336	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	38	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1512	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3426	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Peptic ulcer (K25-K28)"	"GR113-090"	288	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Diseases of appendix (K35-K38)"	"GR113-091"	20	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Hernia (K40-K46)"	"GR113-092"	181	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3556	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Alcoholic liver disease (K70)"	"GR113-094"	1972	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1584	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	326	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	4295	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	73	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	23	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Renal failure (N17-N19)"	"GR113-100"	4195	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other disorders of kidney (N25,N27)"	"GR113-101"	4	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	82	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Hyperplasia of prostate (N40)"	"GR113-103"	46	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	9	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	76	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	2	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	74	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	809	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	813	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	2885	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"All other diseases (Residual) "	"GR113-111"	29234	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	13473	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3452	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3250	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	74	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	128	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10021	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Falls (W00-W19)"	"GR113-118"	3202	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	47	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	154	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	318	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	4884	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1416	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	3651	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	1865	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	1786	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1483	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1093	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	390	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	52	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	409	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	26	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	383	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	403	Not Applicable	Not Applicable
+	"Nov., 2018"	"2018/11"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	345	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Salmonella infections (A01-A02)"	"GR113-001"	7	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Certain other intestinal infections (A04,A07-A09)"	"GR113-003"	629	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Tuberculosis (A16-A19)"	"GR113-004"	53	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Respiratory tuberculosis (A16)"	"GR113-005"	36	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other tuberculosis (A17-A19)"	"GR113-006"	17	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Meningococcal infection (A39)"	"GR113-009"	2	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Septicemia (A40-A41)"	"GR113-010"	3620	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Syphilis (A50-A53)"	"GR113-011"	1	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Viral hepatitis (B15-B19)"	"GR113-015"	409	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Human immunodeficiency virus (HIV) disease (B20-B24)"	"GR113-016"	456	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Malaria (B50-B54)"	"GR113-017"	1	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other and unspecified infectious and parasitic diseases and their sequelae (A00,A05,A20-A36,A42-A44,A48-A49,A54-A79,A81-A82,A85.0-A85.1,A85.8,A86-B04,B06-B09,B25-B49,B55-B99)"	"GR113-018"	714	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Malignant neoplasms (C00-C97)"	"GR113-019"	51622	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasms of lip, oral cavity and pharynx (C00-C14)"	"GR113-020"	855	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of esophagus (C15)"	"GR113-021"	1262	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of stomach (C16)"	"GR113-022"	930	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasms of colon, rectum and anus (C18-C21)"	"GR113-023"	4552	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasms of liver and intrahepatic bile ducts (C22)"	"GR113-024"	2333	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of pancreas (C25)"	"GR113-025"	3876	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of larynx (C32)"	"GR113-026"	324	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasms of trachea, bronchus and lung (C33-C34)"	"GR113-027"	12164	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant melanoma of skin (C43)"	"GR113-028"	675	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of breast (C50)"	"GR113-029"	3869	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of cervix uteri (C53)"	"GR113-030"	358	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasms of corpus uteri and uterus, part unspecified (C54-C55)"	"GR113-031"	1024	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of ovary (C56)"	"GR113-032"	1196	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of prostate (C61)"	"GR113-033"	2617	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasms of kidney and renal pelvis (C64-C65)"	"GR113-034"	1191	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasm of bladder (C67)"	"GR113-035"	1513	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasms of meninges, brain and other parts of central nervous system (C70-C72)"	"GR113-036"	1434	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malignant neoplasms of lymphoid, hematopoietic and related tissue (C81-C96)"	"GR113-037"	5045	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Hodgkin disease (C81)"	"GR113-038"	79	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Non-Hodgkin lymphoma (C82-C85)"	"GR113-039"	1819	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Leukemia (C91-C95)"	"GR113-040"	1995	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Multiple myeloma and immunoproliferative neoplasms (C88,C90)"	"GR113-041"	1135	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other and unspecified malignant neoplasms of lymphoid, hematopoietic and related tissue (C96)"	"GR113-042"	17	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"All other and unspecified malignant neoplasms (C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C63,C66,C68-C69,C73-C80,C97)"	"GR113-043"	6404	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behavior (D00-D48)"	"GR113-044"	1361	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Anemias (D50-D64)"	"GR113-045"	468	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Diabetes mellitus (E10-E14)"	"GR113-046"	7663	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Nutritional deficiencies (E40-E64)"	"GR113-047"	957	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Malnutrition (E40-E46)"	"GR113-048"	919	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other nutritional deficiencies (E50-E64)"	"GR113-049"	38	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Meningitis (G00,G03)"	"GR113-050"	56	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Parkinson disease (G20-G21)"	"GR113-051"	3146	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Alzheimer disease (G30)"	"GR113-052"	10950	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Major cardiovascular diseases (I00-I78)"	"GR113-053"	77082	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Diseases of heart (I00-I09,I11,I13,I20-I51)"	"GR113-054"	58613	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Acute rheumatic fever and chronic rheumatic heart diseases (I00-I09)"	"GR113-055"	268	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Hypertensive heart disease (I11)"	"GR113-056"	4597	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Hypertensive heart and renal disease (I13)"	"GR113-057"	813	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Ischemic heart diseases (I20-I25)"	"GR113-058"	32590	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Acute myocardial infarction (I21-I22)"	"GR113-059"	9705	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other acute ischemic heart diseases (I24)"	"GR113-060"	381	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other forms of chronic ischemic heart disease (I20,I25)"	"GR113-061"	22504	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Atherosclerotic cardiovascular disease, so described (I25.0)"	"GR113-062"	5828	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"All other forms of chronic ischemic heart disease (I20,I25.1-I25.9)"	"GR113-063"	16676	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other heart diseases (I26-I51)"	"GR113-064"	20345	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Acute and subacute endocarditis (I33)"	"GR113-065"	151	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Diseases of pericardium and acute myocarditis (I30-I31,I40)"	"GR113-066"	87	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Heart failure (I50)"	"GR113-067"	7617	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"All other forms of heart disease (I26-I28,I34-I38,I42-I49,I51)"	"GR113-068"	12490	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Essential hypertension and hypertensive renal disease (I10,I12,I15)"	"GR113-069"	3210	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Cerebrovascular diseases (I60-I69)"	"GR113-070"	13111	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Atherosclerosis (I70)"	"GR113-071"	385	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other diseases of circulatory system (I71-I78)"	"GR113-072"	1763	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Aortic aneurysm and dissection (I71)"	"GR113-073"	898	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other diseases of arteries, arterioles and capillaries (I72-I78)"	"GR113-074"	865	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other disorders of circulatory system (I80-I99)"	"GR113-075"	395	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Influenza and pneumonia (J09-J18)"	"GR113-076"	4489	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Influenza (J09-J11)"	"GR113-077"	312	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Pneumonia (J12-J18)"	"GR113-078"	4177	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other acute lower respiratory infections (J20-J22,U04)"	"GR113-079"	26	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Acute bronchitis and bronchiolitis (J20-J21)"	"GR113-080"	20	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other and unspecified acute lower respiratory infections (J22,U04)"	"GR113-081"	6	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Chronic lower respiratory diseases (J40-J47)"	"GR113-082"	13909	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Bronchitis, chronic and unspecified (J40-J42)"	"GR113-083"	35	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Emphysema (J43)"	"GR113-084"	659	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Asthma (J45-J46)"	"GR113-085"	310	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other chronic lower respiratory diseases (J44,J47)"	"GR113-086"	12905	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Pneumoconioses and chemical effects (J60-J66,J68)"	"GR113-087"	53	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Pneumonitis due to solids and liquids (J69)"	"GR113-088"	1635	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other diseases of respiratory system (J00-J06,J30- J39,J67,J70-J98)"	"GR113-089"	3899	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Peptic ulcer (K25-K28)"	"GR113-090"	322	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Diseases of appendix (K35-K38)"	"GR113-091"	34	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Hernia (K40-K46)"	"GR113-092"	184	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Chronic liver disease and cirrhosis (K70,K73-K74)"	"GR113-093"	3789	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Alcoholic liver disease (K70)"	"GR113-094"	2036	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other chronic liver disease and cirrhosis (K73-K74)"	"GR113-095"	1753	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Cholelithiasis and other disorders of gallbladder (K80-K82)"	"GR113-096"	322	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)"	"GR113-097"	4647	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Acute and rapidly progressive nephritic and nephrotic syndrome (N00-N01,N04)"	"GR113-098"	70	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Chronic glomerulonephritis, nephritis and nephropathy not specified as acute or chronic, and renal sclerosis unspecified (N02-N03,N05-N07,N26)"	"GR113-099"	17	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Renal failure (N17-N19)"	"GR113-100"	4558	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other disorders of kidney (N25,N27)"	"GR113-101"	2	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Infections of kidney (N10-N12,N13.6,N15.1)"	"GR113-102"	75	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Hyperplasia of prostate (N40)"	"GR113-103"	51	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Inflammatory diseases of female pelvic organs (N70-N76)"	"GR113-104"	16	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Pregnancy, childbirth and the puerperium (O00-O99)"	"GR113-105"	79	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Pregnancy with abortive outcome (O00-O07)"	"GR113-106"	2	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other complications of pregnancy, childbirth and the puerperium (O10-O99)"	"GR113-107"	77	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Certain conditions originating in the perinatal period (P00-P96)"	"GR113-108"	809	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Congenital malformations, deformations and chromosomal abnormalities (Q00-Q99)"	"GR113-109"	839	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"	"GR113-110"	3104	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"All other diseases (Residual) "	"GR113-111"	31310	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Accidents (unintentional injuries) (V01-X59,Y85-Y86)"	"GR113-112"	13851	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Transport accidents (V01-V99,Y85)"	"GR113-113"	3351	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Motor vehicle accidents (V02-V04,V09.0,V09.2,V12-V14,V19.0-V19.2,V19.4-V19.6,V20-V79,V80.3-V80.5,V81.0-V81.1,V82.0-V82.1,V83-V86,V87.0-V87.8,V88.0-V88.8,V89.0,V89.2)"	"GR113-114"	3181	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other land transport accidents (V01,V05-V06,V09.1,V09.3-V09.9,V10-V11,V15-V18,V19.3,V19.8-V19.9,V80.0-V80.2,V80.6-V80.9,V81.2-V81.9,V82.2-V82.9,V87.9,V88.9,V89.1,V89.3,V89.9)"	"GR113-115"	73	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Water, air and space, and other and unspecified transport accidents and their sequelae (V90-V99,Y85)"	"GR113-116"	97	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Nontransport accidents (W00-X59,Y86)"	"GR113-117"	10500	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Falls (W00-W19)"	"GR113-118"	3277	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Accidental discharge of firearms (W32-W34)"	"GR113-119"	41	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Accidental drowning and submersion (W65-W74)"	"GR113-120"	149	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Accidental exposure to smoke, fire and flames (X00-X09)"	"GR113-121"	290	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Accidental poisoning and exposure to noxious substances (X40-X49)"	"GR113-122"	5232	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other and unspecified nontransport accidents and their sequelae (W20-W31,W35-W64,W75-W99,X10-X39,X50-X59,Y86)"	"GR113-123"	1511	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Intentional self-harm (suicide) (*U03,X60-X84,Y87.0)"	"GR113-124"	3713	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Intentional self-harm (suicide) by discharge of firearms (X72-X74)"	"GR113-125"	1898	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Intentional self-harm (suicide) by other and unspecified means and their sequelae (*U03,X60-X71,X75-X84,Y87.0)"	"GR113-126"	1815	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Assault (homicide) (*U01-*U02,X85-Y09,Y87.1)"	"GR113-127"	1556	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Assault (homicide) by discharge of firearms (*U01.4,X93-X95)"	"GR113-128"	1185	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Assault (homicide) by other and unspecified means and their sequelae (*U01.0-*U01.3,*U01.5-*U01.9,*U02,X85-X92,X96-Y09,Y87.1)"	"GR113-129"	371	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Legal intervention (Y35,Y89.0)"	"GR113-130"	51	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Events of undetermined intent (Y10-Y34,Y87.2,Y89.9)"	"GR113-131"	442	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Discharge of firearms, undetermined intent (Y22-Y24)"	"GR113-132"	22	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"Other and unspecified events of undetermined intent and their sequelae (Y10-Y21,Y25-Y34,Y87.2,Y89.9)"	"GR113-133"	420	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Operations of war and their sequelae (Y36,Y89.1)"	"GR113-134"	1	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Complications of medical and surgical care (Y40-Y84,Y88)"	"GR113-135"	482	Not Applicable	Not Applicable
+	"Dec., 2018"	"2018/12"	"#Enterocolitis due to Clostridium difficile (A04.7)"	"GR113-136"	385	Not Applicable	Not Applicable
+"---"
+"Dataset: Underlying Cause of Death, 1999-2018"
+"Query Parameters:"
+"Year/Month: 2018"
+"Group By: Month; ICD-10 113 Cause List"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information."
+"---"
+"Query Date: Apr 18, 2020 7:24:51 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death"
+"1999-2018 on CDC WONDER Online Database, released in 2020. Data are from the Multiple Cause of Death Files, 1999-2018, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/ucd-icd10.html on Apr 18, 2020 7:24:51 AM"
+"---"
+Messages:
+"1. Totals and Percent of Total are disabled when data are grouped by 113 or 130 Cause Lists. Check Caveats below for more"
+"information."
+"2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows."
+"---"
+Footnotes:
+"1. A '#' symbol preceding the label indicates a rankable cause of death. More information."
+"---"
+Caveats:
+"1. Totals and Percent of Total are disabled when data are grouped by a 113 or 130 Cause List because both aggregate and detailed"
+"values are displayed in the table. Also be aware that charts and maps containing both aggregate and detail data could be"
+"misleading."
+"2. Population and rates are labeled 'Not Applicable' when Autopsy, Place of Death, Weekday or Month are grouped by or limited,"
+"due to lack of a valid population. More information: http://wonder.cdc.gov/wonder/help/ucd.html#NotApplicableRates."
+"3. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable."
+"4. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Caution should be used in interpreting these data. More"
+"information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
