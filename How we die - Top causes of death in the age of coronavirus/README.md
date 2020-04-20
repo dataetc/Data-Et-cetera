@@ -8,4 +8,4 @@ Data file used in the graphic "Deaths per day, by cause of death (U.S.A.)"
 ## Number of COVID-19-related deaths
 Data file used in the graphic "Deaths per day, by cause of death (U.S.A.)"
 
-*Source:* The European Centers for Disease Control's (ECDC) [worldwide situation update](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases). Data are current as of April 20, 2020.
+*Source:* The European Centre for Disease Prevention and Control's (ECDC) [worldwide situation update](https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases). Data are current as of April 20, 2020.
