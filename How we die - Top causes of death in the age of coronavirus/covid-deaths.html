@@ -1,0 +1,124 @@
+<!-- PUT THIS ON THE TOP OF EVERY PAGE -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125712866-1');
+    </script>
+
+<body>
+
+    <style>
+        .step {
+            margin-bottom: 570px;
+            position: relative;
+            width: 50%;
+            left: 25%;
+            background-color: #FFF;
+            padding: 10px;
+            border: 1px solid #CCC;
+            z-index: 5;
+        }
+
+        .paragraph {
+            margin-bottom: 0px;
+        }
+
+        #svg_element {
+            width: 100%;
+            position: sticky;
+            top: 5%;
+            left: 0%;
+            z-index: 2;
+        }
+
+        #sections {
+            z-index: 3;
+        }
+
+
+        body {
+            background: #fff;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+            color: black;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 2em 2em 4em;
+            text-align: left;
+        }
+
+        h1,
+        h2 {
+            font-weight: 600;
+        }
+    </style>
+
+    <body>
+
+        <div class="container">
+            <div id='graphic'>
+
+                <div id="svg_element">
+                    <div id="chartTitle">
+                        <h2><i>Deaths per day, by cause of death (U.S.A.) </i></h2>
+                    </div>
+                    <div id="toolTip"></div>
+                </div>
+
+                <div id='sections'>
+
+                    <section class="step">In February 2018, the most common cause of death in the United States was heart attack and other cardiovascular diseases. About 2,500 people died per day of cardiovascular illness.</section>
+
+                    <section class="step">The second leading cause of death is cancer, which was responsible for about 1,600 deaths per day in the month of February.</section>
+
+                    <section class="step">Another significant group of causes of death is respiratory disease, like bronchitis, emphysema, or asthma.</section>
+
+                    <section class="step">Influenza and pneumonia, often compared to COVID-19, together killed about 300 people per day.</section>
+
+                    <section class="step">Drug overdoses were responsible for about 167 people dying per day.</section>
+
+                    <section class="step">On February 29, the first American COVID-19 related death was reported.</section>
+                    <section class="step">Only a few COVID-19 related deaths were recorded per day for the following three weeks. COVID-19 remained a rare cause of death.</section>
+
+                    <section class="step">On March 19, COVID-19 ranked among the top 20 causes of death in the United States for the first time.</section>
+
+                    <section class="step">By March 21, COVID-19 was killing 110 people per day, about as many people as car accidents, Parkinson's disease, or accidental falls.</section>
+                    <section class="step">On March 25, COVID-19 was responsible for more deaths than the flu or pneumonia, drug overdose, or suicide.</section>
+                    <section class="step">On March 26, COVID-19 reached the top 5 causes of death in the United States, surpassing diabetes.</section>
+                    <section class="step">On March 29th, COVID-19 surpassed Alzheimer's disease and lower respiratory diseases, becoming the third leading cause of death.</section>
+
+                    <section class="step">COVID-19 remained the third leading cause of daily deaths from the end of March until April 7.</section>
+                    <section class="step">On April 8, COVID-19 killed 1,906 people in one day, becoming the second leading cause of death.</section>
+
+                    <section class="step">For the first time, on April 15th, COVID-19 killed 2,408 Americans— more than any other cause of death in the United States.</section>
+                    <section class="step">The next day, on April 16th, that number more than doubled to 4,928 deaths.</section>
+                    <section class="step">April 17th</section>
+                    <section class="step">April 18th</section>
+                    <section class="step">April 19th</section>
+                    <section class="step">April 20th</section>
+
+                    <section class="step" id="whiteBox" style="margin-bottom: 000px" style="opaicty:0"> </section>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="scroller.js"></script>
+    <script src="CovidCOD.js"></script>
+
+    <br></html>
