@@ -7,8 +7,6 @@ var margin = {
     width = 750 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-console.log(d3.select("body").style("width"));
-
 var svg = d3.select("#svg_element")
     .append("svg")
    
@@ -16,7 +14,6 @@ var svg = d3.select("#svg_element")
     .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
 
 // Add the tool tip to the svg
 var toolTip_text = "";
@@ -64,7 +61,7 @@ var hideBars = d3.scaleOrdinal()
     .domain([1, 2, 3])
     .range([0.3, 1, 1]);
 
-d3.csv("./data/wonder_data.csv")
+d3.csv("wonder_data - Copy.csv")
     .then(function (data) {
         data.forEach(function (d) {
             d.Date = d.Date;
@@ -82,13 +79,11 @@ d3.csv("./data/wonder_data.csv")
         console.log(error);
     });
 
-
 function display(data) {
 
     // setup scroll functionalitys
     let scroll = scroller()
         .container(d3.select('#graphic'));
-
 
     let lastIndex, activeIndex = 0
     //This is where most of the magic happens. Every time the user scrolls, we receive a new index. First, we find all the irrelevant sections, and reduce their opacity. 
