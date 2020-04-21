@@ -61,7 +61,7 @@ var hideBars = d3.scaleOrdinal()
     .domain([1, 2, 3])
     .range([0.3, 1, 1]);
 
-d3.csv("wonder_data - Copy.csv")
+d3.csv("./data/wonder_data.csv")
     .then(function (data) {
         data.forEach(function (d) {
             d.Date = d.Date;
