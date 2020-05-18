@@ -1,0 +1,275 @@
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-tile@1"></script>
+                <div class="flex-container">
+                    <div class="flex-child" id="northPole"></div>
+
+                    <div class="flex-child" id="southPole"></div>
+
+                </div>
+
+
+<div id="summerIce_label"></div>
+
+
+                <script>
+                    var width = d3.select("body").node().getBoundingClientRect().width / 2.15,
+                        height = width,
+                        label_farLeft = width / 2,
+                        origin_north = [90, -90],
+                        origin_south = [-90, 90],
+                        velocity = [.0022, 0],
+                        t0 = Date.now();
+
+                    var sphere = {
+                        type: "Sphere"
+                    };
+
+                    var globeSize = 1.28,
+                        clipAngle = 71,
+                        projection_north = d3.geoOrthographic()
+                        .scale(height / globeSize)
+                        .translate([width / 2, height / 2])
+                        .clipAngle(clipAngle)
+                        .precision(.05),
+                        projection_south = d3.geoOrthographic()
+                        .scale(height / globeSize)
+                        .translate([width / 2, height / 2])
+                        .clipAngle(clipAngle)
+                        .precision(0.5);
+
+                    var canvas_north = d3.select("#northPole").append("canvas")
+                        .attr("width", width)
+                        .attr("height", height);
+                    var canvas_south = d3.select("#southPole").append("canvas")
+                        .attr("width", width)
+                        .attr("height", height);
+
+                    var context_north = canvas_north.node().getContext("2d"),
+                        context_south = canvas_south.node().getContext("2d");
+
+                    var path_north = d3.geoPath()
+                        .projection(projection_north)
+                        .context(context_north),
+                        path_south = d3.geoPath()
+                        .projection(projection_south)
+                        .context(context_south);
+
+                    var graticule = d3.geoGraticule();
+                    var numYears = 16;
+
+                    // Add the label
+                    var svg_summerIceLabel = d3.select('#summerIce_label').append("svg").attr("height", 15).attr("width", width);
+
+                    // Create the svg:defs element and the main gradient definition.
+                    var svgDefs = svg_summerIceLabel.append('defs');
+
+                    var mainGradient = svgDefs.append('linearGradient')
+                        .attr('id', 'mainGradient');
+
+                    // Create the stops of the main gradient. Each stop will be assigned
+                    // a class to style the stop using CSS.
+                    mainGradient.append('stop')
+                        .attr('class', 'stop-left')
+                        .attr('offset', '0')
+                        .attr("stop-color", "blue");
+
+                    mainGradient.append('stop')
+                        .attr('class', 'stop-right')
+                        .attr('offset', '1')
+                        .attr("stop-color", "white");
+
+                    var label_height = 12,
+                        font_size = 10,
+                        fontOffset_x = -10,
+
+                        label_text_left = svg_summerIceLabel.append("text").text("2004")
+                        .attr("x", label_farLeft + fontOffset_x).attr("y", label_height)
+                        .attr("font-size", font_size),
+                        label_text_middleLeft = svg_summerIceLabel.append("text").text("2009")
+                        .attr("x", 1.66 * label_farLeft + fontOffset_x).attr("y", label_height)
+                        .attr("font-size", font_size),
+                        label_text_middleRight = svg_summerIceLabel.append("text").text("2014")
+                        .attr("x", 2.33 * label_farLeft + fontOffset_x).attr("y", label_height)
+                        .attr("font-size", font_size)
+                    label_text_right = svg_summerIceLabel.append("text").text("2019")
+                        .attr("x", 3 * label_farLeft + fontOffset_x).attr("y", label_height)
+                        .attr("font-size", font_size);
+
+                    var label_rect =
+                        svg_summerIceLabel.append("rect").attr("height", 5).attr("width", width).attr("fill", "url(#mainGradient)").attr("stroke", d3.rgb(0, 0, 0, 0.5)).attr("x", width / 2).attr("y", 20);
+                    var label_marker = svg_summerIceLabel.append("rect").attr("height", 11).attr("width", 3).attr("fill", "black").attr("x", label_farLeft).attr("y", 16).attr("id", "labelMarker");
+
+                    Promise.all([
+                        d3.json("https://unpkg.com/world-atlas@1.1.4/world/110m.json"),
+                        // North Pole
+                        d3.json("data/North/iceMap_North_2004_September.json"),
+                        d3.json("data/North/iceMap_North_2005_September.json"),
+                        d3.json("data/North/iceMap_North_2006_September.json"),
+                        d3.json("data/North/iceMap_North_2007_September.json"),
+                        d3.json("data/North/iceMap_North_2008_September.json"),
+                        d3.json("data/North/iceMap_North_2009_September.json"),
+                        d3.json("data/North/iceMap_North_2010_September.json"),
+                        d3.json("data/North/iceMap_North_2011_September.json"),
+                        d3.json("data/North/iceMap_North_2012_September.json"),
+                        d3.json("data/North/iceMap_North_2013_September.json"),
+                        d3.json("data/North/iceMap_North_2014_September.json"),
+                        d3.json("data/North/iceMap_North_2015_September.json"),
+                        d3.json("data/North/iceMap_North_2016_September.json"),
+                        d3.json("data/North/iceMap_North_2017_September.json"),
+                        d3.json("data/North/iceMap_North_2018_September.json"),
+                        d3.json("data/North/iceMap_North_2019_September.json"),
+                        // South Pole
+                        d3.json("data/South/iceMap_South_2004_March.json"),
+                        d3.json("data/South/iceMap_South_2005_March.json"),
+                        d3.json("data/South/iceMap_South_2006_March.json"),
+                        d3.json("data/South/iceMap_South_2007_March.json"),
+                        d3.json("data/South/iceMap_South_2008_March.json"),
+                        d3.json("data/South/iceMap_South_2009_March.json"),
+                        d3.json("data/South/iceMap_South_2010_March.json"),
+                        d3.json("data/South/iceMap_South_2011_March.json"),
+                        d3.json("data/South/iceMap_South_2012_March.json"),
+                        d3.json("data/South/iceMap_South_2013_March.json"),
+                        d3.json("data/South/iceMap_South_2014_March.json"),
+                        d3.json("data/South/iceMap_South_2015_March.json"),
+                        d3.json("data/South/iceMap_South_2016_March.json"),
+                        d3.json("data/South/iceMap_South_2017_March.json"),
+                        d3.json("data/South/iceMap_South_2018_March.json"),
+                        d3.json("data/South/iceMap_South_2019_March.json")
+                    ]).then(function(world) {
+
+                        //  if (error) throw error;
+                        var land = topojson.feature(world[0], world[0].objects.countries);
+
+                        var numYears = 16;
+                        var ice_north = [],
+                            ice_south = [];
+                        for (var i = 0; i < numYears; i++) {
+                            ice_north[i] = topojson.feature(world[i + 1],
+                                world[i + 1].objects[d3.keys(world[i + 1].objects)[0]]);
+                            ice_south[i] = topojson.feature(world[i + 1 + numYears],
+                                world[i + 1 + numYears].objects[d3.keys(world[i + 1 + numYears].objects)[0]]);
+                        }
+
+                        // Create a color scale for the different years:
+                        var colorIce_byYear = d3.scaleLinear()
+                            .domain([0, numYears])
+                            .range(["blue", "white"]);
+
+                        var sheetToDisplay = 0,
+                            currentIteration = 0,
+                            stepWidth = 12,
+                            delay_OnlastFrame = 5,
+                            counter_forDelayLastFrame = 0;
+
+                        var oceanColor = "steelblue",
+                            continentColor = d3.color("rgba(34, 153, 84, 0.8)");
+
+                        var graticule = d3.geoGraticule();
+
+                        d3.timer(function() {
+                            var dt = Date.now() - t0;
+
+                            projection_north.rotate([velocity[0] * dt + origin_north[0], velocity[1] * dt + origin_north[1]]);
+                            projection_south.rotate([velocity[0] * dt + origin_south[0], velocity[1] * dt + origin_south[1]]);
+                            context_north.clearRect(0, 0, width, height);
+                            context_south.clearRect(0, 0, width, height);
+
+                            // Create the globe (no objects yet)
+                            context_north.beginPath();
+                            path_north(sphere);
+                            context_north.lineWidth = 2;
+                            context_north.strokeStyle = "#000";
+                            context_north.stroke();
+                            context_north.fillStyle = oceanColor;
+                            context_north.fill();
+                            context_south.beginPath();
+                            path_south(sphere);
+                            context_south.lineWidth = 2;
+                            context_south.strokeStyle = "#000";
+                            context_south.stroke();
+                            context_south.fillStyle = oceanColor;
+                            context_south.fill();
+
+                            // Graticule
+                            context_north.beginPath();
+                            context_north.strokeStyle = d3.color("rgba(0, 0, 0, 0.15)");
+                            context_north.lineWidth = 1;
+                            path_north(graticule());
+                            context_north.stroke();
+                            context_south.beginPath();
+                            context_south.strokeStyle = d3.color("rgba(0, 0, 0, 0.15)");
+                            context_south.lineWidth = 1;
+                            path_south(graticule());
+                            context_south.stroke();
+
+                            // Continents
+                            context_north.beginPath();
+                            path_north(land);
+                            context_north.lineWidth = 1;
+                            context_north.strokeStyle = "black";
+                            context_north.stroke();
+                            context_north.fillStyle = continentColor;
+                            context_north.fill();
+                            context_south.beginPath();
+                            path_south(land);
+                            context_south.lineWidth = 1;
+                            context_south.strokeStyle = "black";
+                            context_south.stroke();
+                            context_south.fillStyle = continentColor;
+                            context_south.fill();
+
+                            // Ice sheets             
+                            context_north.beginPath();
+                            path_north(ice_north[0]);
+                            context_north.lineWidth = 1;
+                            context_north.strokeStyle = "black";
+                            context_north.stroke();
+                            context_north.fillStyle = colorIce_byYear(0); //"white";
+                            context_north.fill();
+                            context_south.beginPath();
+                            path_south(ice_south[0]);
+                            context_south.lineWidth = 1;
+                            context_south.strokeStyle = "black";
+                            context_south.stroke();
+                            context_south.fillStyle = colorIce_byYear(0); //"white";
+                            context_south.fill();
+
+                            if (currentIteration / stepWidth == 1) {
+                                currentIteration = 0;
+
+                                if (sheetToDisplay < numYears - 1) {
+                                    sheetToDisplay++;
+                                } else {
+                                    if (counter_forDelayLastFrame < delay_OnlastFrame) {
+                                        counter_forDelayLastFrame++;
+                                    } else {
+                                        sheetToDisplay = 0;
+                                        counter_forDelayLastFrame = 0;
+                                    }
+                                }
+
+                                d3.select("#labelMarker").transition().duration(10).attr("x", label_farLeft + sheetToDisplay * label_farLeft * 2 / (numYears - 1));
+                            }
+                            if (sheetToDisplay > 0) {
+                                context_north.beginPath();
+                                path_north(ice_north[sheetToDisplay]);
+                                context_north.lineWidth = 1;
+                                context_north.strokeStyle = "black";
+                                context_north.stroke();
+                                context_north.fillStyle = colorIce_byYear(sheetToDisplay);
+                                context_north.fill();
+                                context_south.beginPath();
+                                path_south(ice_south[sheetToDisplay]);
+                                context_south.lineWidth = 1;
+                                context_south.strokeStyle = "black";
+                                context_south.stroke();
+                                context_south.fillStyle = colorIce_byYear(sheetToDisplay);
+                                context_south.fill();
+                            }
+                            currentIteration++;
+                        });
+                    });
+
+                    d3.select(self.frameElement).style("height", height + "px");
+                </script>
