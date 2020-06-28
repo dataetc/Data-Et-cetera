@@ -1,0 +1,1 @@
+# Data sets and d3.js used in [The virus and the slaughterhouse](https://www.dataetc.org/2020/06/28/meat-industry.html), published June 28, 2020.
