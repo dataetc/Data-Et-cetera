@@ -1,0 +1,104 @@
+"Name","NAICS","NF Incidence - Total","NF Cases - Total","F Cases - Total"
+"Oilseed/grain farming","1111",2.8,500,78
+"Vegetable/melon farming","1112",4.4,3400,12
+"Fruit/tree nut farming","1113",6.5,9100,19
+"Greenhouse, nursery,/floriculture production","1114",5.8,7300,10
+"Other crop farming","1119",5.5,2100,59
+"Cattle ranching/farming","1121",6.8,9100,135
+"Hog/pig farming","1122",7.7,1900,4
+"Poultry/egg production","1123",4.3,1800,5
+"Sheep/goat farming","1124",NA,0,1
+"Aquaculture","1125",6.1,300,NA
+"Other animal production","1129",8.9,1000,12
+"Forest nurseries/gathering of forest products","1132",3.6,100,8
+"Logging","1133",3.5,1700,75
+"Hunting/trapping","1142",3.1,0,1
+"Support activities for crop production","1151",4.6,13900,34
+"Support activities for animal production","1152",3.8,1100,6
+"Support activities for forestry","1153",5.8,900,NA
+"Animal food manufacturing","3111",3.3,2200,7
+"Grain/oilseed milling","3112",2.5,1700,NA
+"Sugar/confectionery product manufacturing","3113",4.1,2900,NA
+"Fruit/vegetable preserving/specialty food manufacturing","3114",4.2,7400,1
+"Dairy product manufacturing","3115",4.8,7300,3
+"Animal slaughtering/processing","3116",4.3,23500,11
+"Seafood product preparation/packaging","3117",6,2000,5
+"Bakeries/tortilla manufacturing","3118",4.1,11900,5
+"Other food manufacturing","3119",4.2,9500,5
+"Beverage manufacturing","3121",4.8,11400,3
+"Tobacco manufacturing","3122",3.3,400,NA
+"Fiber, yarn,/thread mills","3131",2.9,900,NA
+"Fabric mills","3132",3.4,1800,NA
+"Textile/fabric finishing/fabric coating mills","3133",2.5,800,NA
+"Textile furnishings mills","3141",3.4,1700,3
+"Other textile product mills","3149",3.8,2300,4
+"Apparel knitting mills","3151",2.7,300,NA
+"Cut/sew apparel manufacturing","3152",1.5,1300,NA
+"Apparel accessories/other apparel manufacturing","3159",3.9,400,NA
+"Leather/hide tanning/finishing","3161",7.9,300,NA
+"Footwear manufacturing","3162",3.9,500,NA
+"Other leather/allied product manufacturing","3169",3.2,300,NA
+"Sawmills/wood preservation","3211",5.8,5800,22
+"Veneer, plywood,/engineered wood product manufacturing","3212",5.3,4400,5
+"Other wood product manufacturing","3219",6.3,14500,19
+"Pulp, paper,/paperboard mills","3221",1.9,1900,4
+"Converted paper product manufacturing","3222",3,8200,5
+"Printing/related support activities","3231",2.3,9300,4
+"Petroleum/coal products manufacturing","3241",1.3,1600,5
+"Basic chemical manufacturing","3251",1.3,2100,3
+"Resin, synthetic rubber,/artificial synthetic fibers/filaments manufacturing","3252",1.8,1700,NA
+"Pesticide, fertilizer,/other agricultural chemical manufacturing","3253",2.9,1000,NA
+"Pharmaceutical/medicine manufacturing","3254",1.6,4600,NA
+"Paint, coating,/adhesive manufacturing","3255",2.8,1800,4
+"Soap, cleaning compound,/toilet preparation manufacturing","3256",2.7,2900,NA
+"Other chemical product/preparation manufacturing","3259",2.2,1900,3
+"Plastics product manufacturing","3261",3.8,22200,7
+"Rubber product manufacturing","3262",3.9,5500,5
+"Clay product/refractory manufacturing","3271",4.5,1800,NA
+"Glass/glass product manufacturing","3272",4.5,4000,5
+"Cement/concrete product manufacturing","3273",4.4,8900,18
+"Lime/gypsum product manufacturing","3274",2.7,400,1
+"Other nonmetallic mineral product manufacturing","3279",3.7,3000,5
+"Iron/steel mills/ferroalloy manufacturing","3311",2.7,2500,NA
+"Steel product manufacturing from purchased steel","3312",4.7,2800,5
+"Alumina/aluminum production/processing","3313",3.4,2100,5
+"Nonferrous metal production/processing","3314",4.5,2900,NA
+"Foundries","3315",6.6,8200,4
+"Forging/stamping","3321",5.5,5500,NA
+"Cutlery/handtool manufacturing","3322",3.3,1200,1
+"Architectural/structural metals manufacturing","3323",4.7,18200,21
+"Boiler, tank,/shipping container manufacturing","3324",3.6,3300,NA
+"Hardware manufacturing","3325",4.1,1000,1
+"Spring/wire product manufacturing","3326",3.9,1700,NA
+"Machine shops; turned product;/screw, nut,/bolt manufacturing","3327",3.9,13800,12
+"Coating, engraving, heat treating,/allied activities","3328",4.6,6400,6
+"Other fabricated metal product manufacturing","3329",3.4,9200,12
+"Agriculture, construction,/mining machinery manufacturing","3331",3.7,8000,11
+"Industrial machinery manufacturing","3332",2.7,3200,6
+"Commercial/service industry machinery manufacturing","3333",3,2700,2
+"Ventilation, heating, air-conditioning,/commercial refrigeration equipment manufacturing","3334",2.9,3800,NA
+"Metalworking machinery manufacturing","3335",3.7,7000,5
+"Engine, turbine,/power transmission equipment manufacturing","3336",2.4,2300,NA
+"Other general purpose machinery manufacturing","3339",3.3,8900,13
+"Computer/peripheral equipment manufacturing","3341",0.7,1000,NA
+"Communications equipment manufacturing","3342",1.4,1200,3
+"Audio/video equipment manufacturing","3343",1.7,300,NA
+"Semiconductor/other electronic component manufacturing","3344",1.2,4300,NA
+"Navigational, measuring, electromedical,/control instruments manufacturing","3345",1.3,5100,NA
+"Manufacturing/reproducing magnetic/optical media","3346",0.9,100,NA
+"Electric lighting equipment manufacturing","3351",2.8,1200,NA
+"Household appliance manufacturing","3352",2.8,1700,NA
+"Electrical equipment manufacturing","3353",2.3,3300,NA
+"Other electrical equipment/component manufacturing","3359",2.6,3700,NA
+"Motor vehicle manufacturing","3361",6.3,13900,3
+"Motor vehicle body/trailer manufacturing","3362",7.2,11900,4
+"Motor vehicle parts manufacturing","3363",3.4,21300,10
+"Aerospace product/parts manufacturing","3364",2.1,10300,5
+"Railroad rolling stock manufacturing","3365",3.1,700,3
+"Ship/boat building","3366",5.1,7000,7
+"Other transportation equipment manufacturing","3369",2.1,700,NA
+"Household/institutional furniture/kitchen cabinet manufacturing","3371",4.6,11200,3
+"Office furniture manufacturing","3372",3.8,4100,NA
+"Other furniture related product manufacturing","3379",2.6,900,NA
+"Medical equipment/supplies manufacturing","3391",1.9,6000,1
+"Other miscellaneous manufacturing","3399",2.6,7300,4

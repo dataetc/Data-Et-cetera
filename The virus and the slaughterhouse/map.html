@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <center>
+            <h3><b><i>Workplace safety violations in the animal sectors (2015 - 2019)</i></b></h3>
+            <!-- Add buttons -->
+            <button class="button_selector" onclick="createMap('Number_Violations')">All violations</button>
+             <button class="button_selector" onclick="createMap('Serious_Violations')"> Serious violations</button>
+             <button class="button_selector" onclick="createMap('Repeat_Violations')">Repeat violations</button>
+            <button class="button_selector" onclick="createMap('Willful_Violations')">Willful violations</button>
+            <button class="button_selector" onclick="createMap('Total_Penalty')">Total penalties</button>
+            <br><br>
+
+            <div id="toolTip_map"></div>
+        </center>
+
+
+        <div id="map_zipCode"></div>
+
+        <style>
+            .mapDots {
+                stroke: black;
+                stroke-opacity: 0.9;
+                stroke-width: 0.8px;
+                fill: red;
+                fill-opacity: 0.6;
+            }
+
+            .mapDots_legend {
+                stroke: black;
+                stroke-opacity: 0.9;
+                stroke-width: 0.8px;
+                fill: red;
+                fill-opacity: 0.6;
+            }
+        </style>
+
+        <script>
+            // create a projetion of the USA with Puerto Rico included:
+            // from: M. Bostock @https://observablehq.com/@d3/u-s-map-with-puerto-rico
+            var epsilon = 0.000001;
+
+            function multiplex(streams) {
+                const n = streams.length;
+                return {
+                    point(x, y) {
+                        for (const s of streams) s.point(x, y);
+                    },
+                    sphere() {
+                        for (const s of streams) s.sphere();
+                    },
+                    lineStart() {
+                        for (const s of streams) s.lineStart();
+                    },
+                    lineEnd() {
+                        for (const s of streams) s.lineEnd();
+                    },
+                    polygonStart() {
+                        for (const s of streams) s.polygonStart();
+                    },
+                    polygonEnd() {
+                        for (const s of streams) s.polygonEnd();
+                    }
+                };
+            }
+
+            function geoAlbersUsaPr() {
+
+                var cache,
+                    cacheStream,
+                    lower48 = d3.geoAlbers(),
+                    lower48Point,
+                    alaska = d3.geoConicEqualArea().rotate([154, 0]).center([-2, 58.5]).parallels([55, 65]),
+                    alaskaPoint,
+                    hawaii = d3.geoConicEqualArea().rotate([157, 0]).center([-3, 19.9]).parallels([8, 18]),
+                    hawaiiPoint,
+                    puertoRico = d3.geoConicEqualArea().rotate([66, 0]).center([0, 18]).parallels([8, 18]),
+                    puertoRicoPoint,
+                    point,
+                    pointStream = {
+                        point: function(x, y) {
+                            point = [x, y];
+                        }
+                    };
+
+                function albersUsa(coordinates) {
+                  
+                    var x = +coordinates[0],
+                        y = +coordinates[1];
+
+                    return point = null,
+                        (lower48Point.point(x, y), point) ||
+                        (alaskaPoint.point(x, y), point) ||
+                        (hawaiiPoint.point(x, y), point) ||
+                        (puertoRicoPoint.point(x, y), point);
+                }
+
+                albersUsa.invert = function(coordinates) {
+                    var k = lower48.scale(),
+                        t = lower48.translate(),
+                        x = (coordinates[0] - t[0]) / k,
+                        y = (coordinates[1] - t[1]) / k;
+                    return (y >= 0.120 && y < 0.234 && x >= -0.425 && x < -0.214 ? alaska :
+                        y >= 0.166 && y < 0.234 && x >= -0.214 && x < -0.115 ? hawaii :
+                        y >= 0.204 && y < 0.234 && x >= 0.320 && x < 0.380 ? puertoRico :
+                        lower48).invert(coordinates);
+                };
+
+                albersUsa.stream = function(stream) {
+                    return cache && cacheStream === stream ? cache : cache = multiplex([lower48.stream(cacheStream = stream), alaska.stream(stream), hawaii.stream(stream), puertoRico.stream(stream)]);
+                };
+
+                albersUsa.precision = function(_) {
+                    if (!arguments.length) return lower48.precision();
+                    lower48.precision(_), alaska.precision(_), hawaii.precision(_), puertoRico.precision(_);
+                    return reset();
+                };
+
+                albersUsa.scale = function(_) {
+                    if (!arguments.length) return lower48.scale();
+                    lower48.scale(_), alaska.scale(_ * 0.35), hawaii.scale(_), puertoRico.scale(_);
+                    return albersUsa.translate(lower48.translate());
+                };
+
+                albersUsa.translate = function(_) {
+                    if (!arguments.length) return lower48.translate();
+                    var k = lower48.scale(),
+                        x = +_[0],
+                        y = +_[1];
+
+                    lower48Point = lower48
+                        .translate(_)
+                        .clipExtent([
+                            [x - 0.455 * k, y - 0.238 * k],
+                            [x + 0.455 * k, y + 0.238 * k]
+                        ])
+                        .stream(pointStream);
+
+                    alaskaPoint = alaska
+                        .translate([x - 0.307 * k, y + 0.201 * k])
+                        .clipExtent([
+                            [x - 0.425 * k + epsilon, y + 0.120 * k + epsilon],
+                            [x - 0.214 * k - epsilon, y + 0.234 * k - epsilon]
+                        ])
+                        .stream(pointStream);
+
+                    hawaiiPoint = hawaii
+                        .translate([x - 0.205 * k, y + 0.212 * k])
+                        .clipExtent([
+                            [x - 0.214 * k + epsilon, y + 0.166 * k + epsilon],
+                            [x - 0.115 * k - epsilon, y + 0.234 * k - epsilon]
+                        ])
+                        .stream(pointStream);
+
+                    puertoRicoPoint = puertoRico
+                        .translate([x + 0.330 * k, y + 0.224 * k])
+                        .clipExtent([
+                            [x + 0.290 * k + epsilon, y + 0.204 * k + epsilon],
+                            [x + 0.360 * k - epsilon, y + 0.234 * k - epsilon]
+                        ])
+                        .stream(pointStream);
+
+
+                    return reset();
+                };
+
+                function reset() {
+                    cache = cacheStream = null;
+                    return albersUsa;
+                }
+
+                return albersUsa.scale(1070);
+            }
+        </script>
+
+
+        <script>
+            /* 
+        Create the US map with circles for the number/size of fines by ZIP codes
+        */
+            var width_map = 800,
+                height_map = 600;
+
+            // time for the circles to be added/removed
+            var transitionTime_map = 1000;
+
+
+            // D3 for United States map:        
+            var circleMinSize = 0,
+                circleMaxSize = 25;
+
+            var formatComma = d3.format(",.0f");
+
+            var projection = geoAlbersUsaPr() //d3.geoAlbersUsa()
+                .scale(1.34 * width_map)
+                .translate([width_map / 2, (height_map - 85) / 2]);
+
+            var path = d3.geoPath()
+                .projection(projection);
+
+            //Appened svg to page
+            var map = d3.select("#map_zipCode").append("svg")
+                .attr("preserveAspectRatio", "xMinYMin meet")
+                .attr("viewBox", [0, 0, width_map, height_map])
+                .classed("svg-content", true);
+
+
+            var mapTip = d3.select("#toolTip_map")
+                .html("Mouse over a circle for more information</br></br></br></br>");
+            
+            // Draw the map: (States and zip codes)
+            Promise.all([
+                    //us
+                    d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
+                    //zip codes
+                    d3.json("https://gist.githubusercontent.com/jefffriesen/6892860/raw/e1f82336dde8de0539a7bac7b8bc60a23d0ad788/zips_us_topo.json")
+                ])
+                .then(function(readValues) {
+
+                    var us = readValues[0],
+                        counties = readValues[1];
+
+                    map.selectAll("path")
+                        .data(topojson.feature(us, us.objects.states).features)
+                        .enter()
+                        .append("path")
+                        .attr("d", path)
+                        .style("stroke", "black")
+                        .style("fill", "none")
+                        .style("stroke-width", "0.4")
+                        .style("stroke-linejoin", "round")
+                        .style("stroke-linecap", "round")
+                        .exit()
+                        .data(topojson.feature(counties, counties.objects.zip_codes_for_the_usa).features)
+                        .enter().append("path")
+                        .attr("class", "zip")
+                        .attr("d", path)
+                        .attr("fill", "none")
+                        .attr("stroke", "rgba(0,0,0,0.5)")
+                        .attr("stroke-width", "0.1")
+                        .style("stroke-linejoin", "round")
+                        .style("stroke-linecap", "round");
+                });
+
+
+            // Load the circle data, and draw the map:
+            function createMap(this_metric) {
+                
+                // Reset the tooltip's text
+                 mapTip .html("Mouse over a circle for more information</br></br></br></br>");
+                
+                Promise.all([
+                        //csv
+                        d3.csv("./data/violations_for_map_byZIP.csv")
+                    ])
+                    .then(function(readValues) {
+
+
+                        // Remove any dots that appear on the map already:
+                        d3.selectAll(".mapDots") //.selectAll(".circle")
+                            .transition().duration(transitionTime_map)
+                            .attr("r", 0)
+                            .remove();
+
+
+                        // Remove the legend text
+                        d3.selectAll(".mapDots_legendText")
+                            .remove();
+                        d3.selectAll(".mapDots_legend")
+                            .remove();
+
+                        var dotData = readValues[0];
+
+                 
+                        var metricScale = d3.scaleSqrt()
+                            .domain([0, d3.max(dotData, function(d) {
+                                return +d[this_metric];
+                            })])
+                            .range([circleMinSize, circleMaxSize]);
+
+                        var colorScale = d3.scaleSqrt()
+                            .domain([0, d3.max(dotData, function(d) {
+                                return +d[this_metric];
+                            })])
+                            .range(["#ddd", "red"]);
+
+                        map.append("g")
+                            //.attr("class", "mapDots")
+                            .selectAll("circle")
+                            .data(dotData)
+                            .enter()
+                            .append("circle")
+                            .attr("class", "mapDots")
+                            .on("mouseover", function(d) {
+                                mapTip.html(d["text_" + this_metric]);
+
+                            })
+                            .attr("transform", function(d) {
+                                return "translate(" + projection([d.lon, d.lat]) + ")"
+                            })
+                            .attr("r", 0)
+                            .transition().duration(transitionTime_map).delay(transitionTime_map * 0.4)
+                            .attr("r", function(d) {
+                                return metricScale(+d[this_metric]);
+                            });
+
+                        var data_max = d3.max(dotData, function(d) {
+                            return +d[this_metric];
+                        });
+
+
+                        // Create and format the map legend
+                        if (this_metric === "Serious_Violations") {
+                            var legendFormatter = d3.format(".2s");
+                        } else {
+                            var legendFormatter = d3.format(".1s");
+                        }
+                        var legend = map.append("g")
+                            .attr("class", "legend")
+                            .attr("transform", "translate(" + (width_map - 100) + "," + (height_map - 20) + ")")
+                            .selectAll("g")
+                            .data([data_max, 3 * data_max / 6, data_max / 6])
+                            .enter().append("g");
+
+                        legend.append("circle")
+                            .attr("class", "mapDots_legend")
+                            .attr("cy", function(d) {
+                                return -metricScale(d);
+                            })
+                            .attr("r", metricScale)
+                            .attr("fill", d => colorScale(d));
+
+                        legend.append("text")
+                            .attr("class", "mapDots_legendText")
+                            .attr("y", function(d) {
+                                return -2.2 * metricScale(d);
+                            })
+                            .attr("x", 30)
+                            .attr("dy", "1.3em")
+                            .text(legendFormatter);
+
+                    });
+            }
+
+
+            createMap('Serious_Violations');
+        </script>
