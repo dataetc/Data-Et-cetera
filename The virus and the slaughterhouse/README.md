@@ -1,1 +1,11 @@
 # Data sets and d3.js used in [The virus and the slaughterhouse](https://www.dataetc.org/2020/06/28/meat-industry.html), published June 28, 2020.
+
+## Workplace injuries and illnesses
+Data file used in the graphics "Injuries and illnesses by sector, 2018" and "Injuries and illnesses in manufacturing and agriculture, 2018"
+
+*Source:* The Bureau of Labor Statistics, U.S. Department of Labor, Survey of Occupational Injuries and Illnesses (2018). Two datasets exist: one at the level of two-digit NAICS codes and one at the level of four-digit codes.  Only sectors part of Manufacturing (NAICS 31-33) and Agriculture, forestry, fishing and hunting (NAICS 11) are included at the four-digit level. Data shown are [numbers of nonfatal occupational injuries and illnesses](https://www.bls.gov/iif/oshwc/osh/os/summ2_00_2018.htm), [non-fatal incidence rates of occupatoinal injuries and illnesses](https://www.bls.gov/web/osh/summ1_00.htm) (represented by the number of injuries and illnesses per 100 full-time workers), and [number of fatal occupational injuries](https://www.bls.gov/iif/oshwc/cfoi/cftb0322.htm).
+
+## OSHA violations
+Data file used in the graphic "Workplace safety violations in the animal sectors (2015 - 2019)"
+
+*Source:* The [Occupational Safety and Health Administration (OSHA)](https://enforcedata.dol.gov/views/data_summary.php), U.S. Department of Labor. Size of circle represents total violations per ZIP code, while text indicates the establishment with the most violations. Some penalties may still be pending. Downloaded 19 May, 2020. The dataset consists of inspection case detail for OSHA inspections. Animals sectors include the following North American Industry Classification System (NAICS) industry codes: 1121 (Cattle Ranching and Farming), 1122 (Hog and pig farming), 1123 (Poultry and egg production), 1124 (Sheep and Goat Farming), 1125 (Aquaculture), 1129 (Other Animal Production), 1142 (Hunting and Trapping), 1152 (Support Activities for Animal Production), 3111 (Animal food manufacturing), 3115 (Dairy Product Manufacturing), 3116 (Animal slaughtering and processing), 3117 (Seafood Product Preparation and Packaging), and 3161 (Leather and Hide Tanning and Finishing).
