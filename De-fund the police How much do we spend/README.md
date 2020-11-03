@@ -1,0 +1,4 @@
+# Data sets and d3.js used in [(De)fund the police: How much do we spend?](https://www.dataetc.org/2020/11/02/police-spending.html), published November 2, 2020.
+
+## City spending
+The Lincoln Institute of Land Policy [Fiscally Standardized Cities](https://www.lincolninst.edu/research-data/data-toolkits/fiscally-standardized-cities/search-database) dataset (2017 update). Dataset is based on U.S. Census data and is constructed to calculate total city spending from all sources (including local, state, and other sources of public funding). [Full methodology available here](https://www.lincolninst.edu/sites/all/modules/custom/fisc/files/source-of-local-govt-census-data-for-fiscs.pdf).
