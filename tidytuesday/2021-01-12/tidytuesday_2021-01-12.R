@@ -1,17 +1,12 @@
 # tidytuesday : 2021-01-12
 
 # Set up environment ----
-list.of.packages <- c("tidytuesdayR","tidyverse","ggplot2","maps","geosphere","plyr","sp")
+list.of.packages <- c("tidytuesdayR","tidyverse","ggplot2","maps","geosphere","plyr","sp","leaflet")
 
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only = TRUE)
 
-# Extra packages
-library(leaflet)
-library(geosphere)
-library(stars)
-library(bomrang) # Australian Bureau of Meterorlogy (BOM) images
 # Info on data ----
 
 # README : https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-01-12/readme.md
@@ -54,18 +49,13 @@ birth$city <- str_split_fixed(birth$placeOfBirth,", ",2)[,1]
 birth$country <- str_split_fixed(birth$placeOfBirth,", ",2)[,2]
 colnames(birth) <- c("place","city","country")
 
-death <- artist[c("placeOfDeath")]
-death$city <- str_split_fixed(death$placeOfDeath,", ",2)[,1]
-death$country <- str_split_fixed(death$placeOfDeath,", ",2)[,2]
-colnames(death) <- c("place","city","country")
-
-cities <- unique(rbind(birth,death))
+cities <- unique(birth)
 
 # Join to latitude and longitude of each city
 coords <- as.data.frame(maps::world.cities)
 coords$name <- gsub("'","",coords$name)  # get weird of hyphen at start of name
 
-# Clean up names to do not match
+# Clean up countries
 # TO DO : deal with Yugoslavia (figure out which city it is, and assign it to the right country)
 cities$country[cities$country == "Polska"] <- "Poland"
 cities$country[cities$country == "Zhonghua"] <- "China"
@@ -127,9 +117,97 @@ cities$country[cities$country == "Misr"] <- "Egypt"
 cities$country[cities$country == "Mehoz, Yisra'el"] <- "Israel"
 cities$country[cities$country == "Otok, Hrvatska"] <- "Croatia"
 cities$country[cities$country == "la, France"] <- "France"
+cities$country[cities$country == "Al-'Iraq"] <- "Iraq"
 
 # Join to dataset of city coordinates (from package maps)
 cities <- left_join(cities, coords[c("name","country.etc","lat","long")], by = c("city" = "name","country" = "country.etc"))
+
+# Clean up cities.  Where city not easily available, replace with capitol
+cities$city[is.na(cities$lat) & cities$country == "USA"] <- "Washington"
+cities$city[is.na(cities$lat) & cities$country == "UK"] <- "London"
+cities$city[is.na(cities$lat) & cities$country == "Israel"] <- "Jerusalem"
+cities$city[is.na(cities$lat) & cities$country == "Germany"] <- "Berlin"
+cities$city[is.na(cities$lat) & cities$country == "Poland"] <- "Warsaw"
+cities$city[is.na(cities$lat) & cities$country == "Italy"] <- "Rome"
+cities$city[is.na(cities$lat) & cities$country == "Argentina"] <- "Buenos Aires"
+cities$city[is.na(cities$lat) & cities$country == "Switzerland"] <- "Bern"
+cities$city[is.na(cities$lat) & cities$country == "Finland"] <- "Helsinki"
+cities$city[is.na(cities$lat) & cities$country == "China"] <- "Beijing"
+cities$city[is.na(cities$lat) & cities$country == "Turkey"] <- "Ankara"
+cities$city[is.na(cities$lat) & cities$country == "Iraq"] <- "Baghdad"
+cities$city[is.na(cities$lat) & cities$country == "Belgium"] <- "Brussels"
+cities$city[is.na(cities$lat) & cities$country == "Russia"] <- "Moscow"
+cities$city[is.na(cities$lat) & cities$country == "France"] <- "Paris"
+cities$city[is.na(cities$lat) & cities$country == "Malaysia"] <- "Kuala Lumpur"
+cities$city[is.na(cities$lat) & cities$country == "Netherlands"] <- "Amsterdam"
+cities$city[is.na(cities$lat) & cities$country == "Portugal"] <- "Lisbon"
+cities$city[is.na(cities$lat) & cities$country == "Mexico"] <- "Mexico City"
+cities$city[is.na(cities$lat) & cities$country == "Spain"] <- "Madrid"
+cities$city[is.na(cities$lat) & cities$country == "Peru"] <- "Lima"
+cities$city[is.na(cities$lat) & cities$country == "Brazil"] <- "Brasilia"
+cities$city[is.na(cities$lat) & cities$country == "Ukraine"] <- "Kyiv"
+cities$city[is.na(cities$lat) & cities$country == "Îran"] <- "Tehran"
+cities$city[is.na(cities$lat) & cities$country == "Venezuela"] <- "Caracas"
+cities$city[is.na(cities$lat) & cities$country == "Pakistan"] <- "Islamabad"
+cities$city[is.na(cities$lat) & cities$country == "Japan"] <- "Tokyo"
+cities$city[is.na(cities$lat) & cities$country == "Vietnam"] <- "Hanoi"
+cities$city[is.na(cities$lat) & cities$country == "Romania"] <- "Bucharest"
+cities$city[is.na(cities$lat) & cities$country == "Australia"] <- "Canberra"
+cities$city[is.na(cities$lat) & cities$country == "Algeria"] <- "Algiers"
+cities$city[is.na(cities$lat) & cities$country == "Canada"] <- "Ottawa"
+cities$city[is.na(cities$lat) & cities$country == "Lebanon"] <- "Beirut"
+cities$city[is.na(cities$lat) & cities$country == "Sweden"] <- "Stockholm"
+cities$city[is.na(cities$lat) & cities$country == "Ireland"] <- "Dublin"
+cities$city[is.na(cities$lat) & cities$country == "Austria"] <- "Vienna"
+cities$city[is.na(cities$lat) & cities$country == "South Africa"] <- "Pretoria"
+cities$city[is.na(cities$lat) & cities$country == "Bosnia and Herzegovina"] <- "Sarajevo"
+cities$city[is.na(cities$lat) & cities$country == "Uganda"] <- "Kampala"
+cities$city[is.na(cities$lat) & cities$country == "Norway"] <- "Oslo"
+cities$city[is.na(cities$lat) & cities$country == "India"] <- "New Delhi"
+cities$city[is.na(cities$lat) & cities$country == "New Zealand"] <- "Wellington"
+cities$city[is.na(cities$lat) & cities$country == "Cuba"] <- "Havana"
+cities$city[is.na(cities$lat) & cities$country == "Greece"] <- "Athens"
+cities$city[is.na(cities$lat) & cities$country == "Colombia"] <- "Bogota"
+cities$city[is.na(cities$lat) & cities$country == "Latvia"] <- "Riga"
+cities$city[is.na(cities$lat) & cities$country == "Bulgaria"] <- "Sofia"
+cities$city[is.na(cities$lat) & cities$country == "Slovenia"] <- "Ljubljana"
+cities$city[is.na(cities$lat) & cities$country == "Chile"] <- "Santiago"
+cities$city[is.na(cities$lat) & cities$country == "Czech Republic"] <- "Prague"
+cities$city[is.na(cities$lat) & cities$country == "Macedonia"] <- "Skopje"
+cities$city[is.na(cities$lat) & cities$country == "Denmark"] <- "Copenhagen"
+cities$city[is.na(cities$lat) & cities$country == "Egypt"] <- "Cairo"
+cities$city[is.na(cities$lat) & cities$country == "Estonia"] <- "Tallinn"
+cities$city[is.na(cities$lat) & cities$country == "Cameroon"] <- "Yaounde"
+cities$city[is.na(cities$lat) & cities$country == "Slovakia"] <- "Bratislava"
+cities$city[is.na(cities$lat) & cities$country == "Benin"] <- "Porto-Novo"
+cities$city[is.na(cities$lat) & cities$country == "Croatia"] <- "Zagreb"
+cities$city[is.na(cities$lat) & cities$country == "Bahamas"] <- "Nassau"
+cities$city[is.na(cities$lat) & cities$country == "Indonesia"] <- "Jakarta"
+cities$city[is.na(cities$lat) & cities$country == "Tanzania"] <- "Dodoma"
+cities$city[is.na(cities$lat) & cities$country == "Bangladesh"] <- "Dhaka"
+cities$city[is.na(cities$lat) & cities$country == "Tunisia"] <- "Tunis"
+cities$city[is.na(cities$lat) & cities$country == "Moldova"] <- "Chisinau"
+cities$city[is.na(cities$lat) & cities$country == "Hungary"] <- "Budapest"
+cities$city[is.na(cities$lat) & cities$country == "Mauritius"] <- "Port Louis"
+cities$city[is.na(cities$lat) & cities$country == "Korea North"] <- "Pyongyang"
+cities$city[is.na(cities$lat) & cities$country == "Korea South"] <- "Seoul"
+cities$city[is.na(cities$lat) & cities$country == "Sri Lanka"] <- "Colombo"
+cities$city[is.na(cities$lat) & cities$country == "Luxembourg"] <- "Luxembourg City"
+cities$city[is.na(cities$lat) & cities$country == "Philippines"] <- "Manila"
+cities$city[is.na(cities$lat) & cities$country == "Jamaica"] <- "Kingston"
+cities$city[is.na(cities$lat) & cities$country == "Kenya"] <- "Nairobi"
+cities$city[is.na(cities$lat) & cities$country == "Laos"] <- "Vientiane"
+cities$city[is.na(cities$lat) & cities$country == "Malta"] <- "Valletta"
+cities$city[is.na(cities$lat) & cities$country == "Panama"] <- "Panama City"
+cities$city[is.na(cities$lat) & cities$country == "Albania"] <- "Tirana" 
+cities$city[is.na(cities$lat) & cities$country == "Nicaragua"] <- "Managua"
+cities$city[is.na(cities$lat) & cities$country == "Syria"] <- "Damascus"
+cities$city[is.na(cities$lat) & cities$country == "Thailand"] <- "Bangkok"
+cities$city[is.na(cities$lat) & cities$country == "Guyana"] <- "Georgetown"         
+cities$city[is.na(cities$lat) & cities$country == "Zambia"] <- "Lusaka"
+
+# Join to dataset of city coordinates (from package maps)
+cities <- left_join(cities[c("place","city","country")], coords[c("name","country.etc","lat","long")], by = c("city" = "name","country" = "country.etc"))
 
 # Path dataframe ----
 # Shows the 'from' (birthplace) and 'to' (place of death)
@@ -138,7 +216,6 @@ path <- left_join(artist, artwork, by = c("id" = "artistId"))
 path <- artist[c("name","placeOfBirth","placeOfDeath")]
 colnames(path) <- c("artist","from","to")
 
-# TO DO : think about this -- could manually look up a few, or presume NA means birth = death?
 # Drop observations where either to or from is missing
 path <- path[!is.na(path$from) & !is.na(path$to),]
 
@@ -146,17 +223,10 @@ path <- path[!is.na(path$from) & !is.na(path$to),]
 path.ag <- ddply(path, c("from","to"), function(x) count(x$to))
 
 # Add lat and long from the cities df we made earlier
-to.ll <- merge(path.ag, cities, all.x = T, by.x = "to", by.y = "place")
 from.ll <- merge(path.ag, cities, all.x = T, by.x = "from", by.y = "place")
 
-# TO DO : clean up
 # Drop where we didn't have a match to lat/long
-to.ll <- to.ll[!is.na(to.ll$lat),] %>%
-  dplyr::rename(latitude = lat, longitude = long)
 from.ll <- from.ll[!is.na(from.ll$lat),]
-from.ll %>% 
-  dplyr::rename(latitude = lat, 
-         longitude = long)
 
 # calculate routes -- Dateline Break FALSE, otherwise we get a bump in the shifted ggplots
 location.ll <- c(-2.7814688, 51.8078055)
@@ -165,67 +235,67 @@ rts <- gcIntermediate(location.ll, from.ll[,c('long', 'lat')], 100, breakAtDateL
 rts <- as(rts, "SpatialLinesDataFrame")
 rts.ff <- fortify(rts)
 
-to.ll$id <-as.character(c(1:nrow(to.ll))) # that rts.ff$id is a char
-gcircles <- merge(rts.ff, to.ll, all.x=T, by="id") # join attributes, we keep them all, just in case
+from.ll$id <-as.character(c(1:nrow(from.ll))) # that rts.ff$id is a char
+gcircles <- merge(rts.ff, from.ll, all.x=T, by="id") # join attributes, we keep them all, just in case
 
 ### Recenter ####
-center <- -2 # positive values only - US centered view is 260
+#center <- -2 # positive values only - US centered view is 260
 
-# shift coordinates to recenter great circles
-gcircles$long.recenter <-  ifelse(gcircles$long  < center - 180 , gcircles$long + 360, gcircles$long) 
-
-# shift coordinates to recenter worldmap
-worldmap <- map_data ("world")
-worldmap$long.recenter <-  ifelse(worldmap$long  < center - 180 , worldmap$long + 360, worldmap$long)
-
-### Function to regroup split lines and polygons
-# takes dataframe, column with long and unique group variable, returns df with added column named group.regroup
-RegroupElements <- function(df, longcol, idcol){  
-  g <- rep(1, length(df[,longcol]))
-  if (diff(range(df[,longcol])) > 300) {          # check if longitude within group differs more than 300 deg, ie if element was split
-    d <- df[,longcol] > mean(range(df[,longcol])) # we use the mean to help us separate the extreme values
-    g[!d] <- 1     # some marker for parts that stay in place (we cheat here a little, as we do not take into account concave polygons)
-    g[d] <- 2      # parts that are moved
-  }
-  g <-  paste(df[, idcol], g, sep=".") # attach to id to create unique group variable for the dataset
-  df$group.regroup <- g
-  df
-}
-
-### Function to close regrouped polygons
-# takes dataframe, checks if 1st and last longitude value are the same, if not, inserts first as last and reassigns order variable
-ClosePolygons <- function(df, longcol, ordercol){
-  if (df[1,longcol] != df[nrow(df),longcol]) {
-    tmp <- df[1,]
-    df <- rbind(df,tmp)
-  }
-  o <- c(1: nrow(df))  # rassign the order variable
-  df[,ordercol] <- o
-  df
-}
-
-# now regroup
-gcircles.rg <- ddply(gcircles, .(id), RegroupElements, "long.recenter", "id")
-worldmap.rg <- ddply(worldmap, .(group), RegroupElements, "long.recenter", "group")
-
-# close polys
-worldmap.cp <- ddply(worldmap.rg, .(group.regroup), ClosePolygons, "long.recenter", "order")  # use the new grouping var
-
-# plot 1
-ggplot() +
-  geom_polygon(aes(long.recenter, lat, group=group.regroup), size = 0.2, fill="#110f52", data=worldmap.cp) +
-  geom_line(aes(long.recenter,lat,group=group.regroup, color = "#f0e891", alpha = 1), size = 0.4, data= gcircles.rg) +
-  geom_point(aes(x = from.ll$long, y = from.ll$lat), colour = "#f0e891", size = 1, alpha = 0.5) +
-  theme_void() +
-  theme(panel.background = element_rect(fill = "#080727"), 
-        panel.grid.minor = element_blank(), 
-        panel.grid.major = element_blank(),  
-        axis.ticks = element_blank(), 
-        axis.title.x = element_blank(),
-        legend.position = "none") +
-  ylim(-60, 90) +
-  coord_equal() +
-  geom_stars(data= sat_vis)
+# # shift coordinates to recenter great circles
+# gcircles$long.recenter <-  ifelse(gcircles$long  < center - 180 , gcircles$long + 360, gcircles$long) 
+# 
+# # shift coordinates to recenter worldmap
+# worldmap <- map_data ("world")
+# worldmap$long.recenter <-  ifelse(worldmap$long  < center - 180 , worldmap$long + 360, worldmap$long)
+# 
+# ### Function to regroup split lines and polygons
+# # takes dataframe, column with long and unique group variable, returns df with added column named group.regroup
+# RegroupElements <- function(df, longcol, idcol){  
+#   g <- rep(1, length(df[,longcol]))
+#   if (diff(range(df[,longcol])) > 300) {          # check if longitude within group differs more than 300 deg, ie if element was split
+#     d <- df[,longcol] > mean(range(df[,longcol])) # we use the mean to help us separate the extreme values
+#     g[!d] <- 1     # some marker for parts that stay in place (we cheat here a little, as we do not take into account concave polygons)
+#     g[d] <- 2      # parts that are moved
+#   }
+#   g <-  paste(df[, idcol], g, sep=".") # attach to id to create unique group variable for the dataset
+#   df$group.regroup <- g
+#   df
+# }
+# 
+# ### Function to close regrouped polygons
+# # takes dataframe, checks if 1st and last longitude value are the same, if not, inserts first as last and reassigns order variable
+# ClosePolygons <- function(df, longcol, ordercol){
+#   if (df[1,longcol] != df[nrow(df),longcol]) {
+#     tmp <- df[1,]
+#     df <- rbind(df,tmp)
+#   }
+#   o <- c(1: nrow(df))  # rassign the order variable
+#   df[,ordercol] <- o
+#   df
+# }
+# 
+# # now regroup
+# gcircles.rg <- ddply(gcircles, .(id), RegroupElements, "long.recenter", "id")
+# worldmap.rg <- ddply(worldmap, .(group), RegroupElements, "long.recenter", "group")
+# 
+# # close polys
+# worldmap.cp <- ddply(worldmap.rg, .(group.regroup), ClosePolygons, "long.recenter", "order")  # use the new grouping var
+# 
+# # plot 1
+# ggplot() +
+#   geom_polygon(aes(long.recenter, lat, group=group.regroup), size = 0.2, fill="#110f52", data=worldmap.cp) +
+#   geom_line(aes(long.recenter,lat,group=group.regroup, color = "#f0e891", alpha = 1), size = 0.4, data= gcircles.rg) +
+#   geom_point(aes(x = from.ll$long, y = from.ll$lat), colour = "#f0e891", size = 1, alpha = 0.5) +
+#   theme_void() +
+#   theme(panel.background = element_rect(fill = "#080727"), 
+#         panel.grid.minor = element_blank(), 
+#         panel.grid.major = element_blank(),  
+#         axis.ticks = element_blank(), 
+#         axis.title.x = element_blank(),
+#         legend.position = "none") +
+#   ylim(-60, 90) +
+#   coord_equal() +
+#   geom_stars(data= sat_vis)
 
 # --------------------------
 rts %>%
