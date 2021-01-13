@@ -1,7 +1,7 @@
 # tidytuesday : 2021-01-12
 
 # Set up environment ----
-list.of.packages <- c("tidytuesdayR","tidyverse","ggplot2","maps","geosphere","plyr","sp","leaflet","mapview")
+list.of.packages <- c("tidytuesdayR","tidyverse","plyr","maps","leaflet","gifski","geosphere","mapview","htmltools")
 
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -12,51 +12,44 @@ lapply(list.of.packages, require, character.only = TRUE)
 # README : https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-01-12/readme.md
 
 # The data this week comes from the Tate Art Museum : https://github.com/tategallery/collection
-
 # The dataset in this repository was last updated in October 2014. Tate has no plans to resume updating this repository, but we are keeping it available for the time being in case this snapshot of the Tate collection is a useful tool for researchers and developers.
-# 
 # Here we present the metadata for around 70,000 artworks that Tate owns or jointly owns with the National Galleries of Scotland as part of ARTIST ROOMS. Metadata for around 3,500 associated artists is also included.
 # 
 # The metadata here is released under the Creative Commons Public Domain CC0 licence. Images are not included and are not part of the dataset. Use of Tate images is covered on the Copyright and permissions page. You may also license images for commercial use.
-# 
 # Tate requests that you actively acknowledge and give attribution to Tate wherever possible. Attribution supports future efforts to release other data. It also reduces the amount of 'orphaned data', helping retain links to authoritative sources.
-# 
-# Here are some examples of Tate data usage in the wild. Please submit a pull request with your creation added to this list.
-# 
-# Data visualisations by Florian Kräutli
-# machine imagined art by Shardcore
-# The Dimensions of Art by Jim Davenport
-# Art as Data as Art and Part II by Oliver Keyes
-# Tate Acquisition Data by Zenlan
-# Tate Collection Geolocalized by Corentin Cournac, Mathieu Dauré, William Duclot and Pierre Présent
-# Aspect Ratio of Tate Artworks through Time by Joseph Lewis
 # 
 # There are JSON files with additional metadata in the original GitHub : https://github.com/tategallery/collection
 
 # Read in data ----
 tuesdata <- tidytuesdayR::tt_load('2021-01-12')
 
-artwork <- tuesdata$artwork
+# Grab the first year that each artist was acquired by the museum 
+artwork <- tuesdata$artwork %>%
+  select(artist, artistId, acquisitionYear) %>% 
+  dplyr::group_by(artist, artistId) %>%
+  dplyr::summarise(year_first_acquired = min(acquisitionYear, na.rm = TRUE))
 artist <- tuesdata$artists
 
-# Create great circles, taken from : https://web.stanford.edu/~cengel/cgi-bin/anthrospace/great-circles-on-a-recentered-worldmap-in-ggplot
-# Taken from : https://www.r-bloggers.com/2012/06/mapping-the-worlds-biggest-airlines/
+# Create great circles, adapted from/inspired by : 
+# 1. https://web.stanford.edu/~cengel/cgi-bin/anthrospace/great-circles-on-a-recentered-worldmap-in-ggplot
+# 2. https://www.r-bloggers.com/2012/06/mapping-the-worlds-biggest-airlines/
 
 # Lat/Long lookup ----
 # for each of the cities in the artists dataset, connect to lat/long
-birth <- artist[c("placeOfBirth")]
-birth$city <- str_split_fixed(birth$placeOfBirth,", ",2)[,1]
-birth$country <- str_split_fixed(birth$placeOfBirth,", ",2)[,2]
-colnames(birth) <- c("place","city","country")
+cities <- artist[c("placeOfBirth")]
+cities$city <- str_split_fixed(cities$placeOfBirth,", ",2)[,1]
+cities$country <- str_split_fixed(cities$placeOfBirth,", ",2)[,2]
+colnames(cities) <- c("place","city","country")
 
-cities <- unique(birth)
+# Where city is not available, replace country with city 
+cities$country[(is.na(cities$country) | cities$country == "") & !is.na(cities$city)] <- cities$city[is.na(cities$country) & !is.na(cities$city)]
 
 # Join to latitude and longitude of each city
 coords <- as.data.frame(maps::world.cities)
 coords$name <- gsub("'","",coords$name)  # get weird of hyphen at start of name
 
-# Clean up countries
-# TO DO : deal with Yugoslavia (figure out which city it is, and assign it to the right country)
+# Clean up cities & countries ----
+# Phase 1 : translate country names to English
 cities$country[cities$country == "Polska"] <- "Poland"
 cities$country[cities$country == "Zhonghua"] <- "China"
 cities$country[cities$country == "Nederland"] <- "Netherlands"
@@ -98,7 +91,6 @@ cities$country[cities$country == "Yisra'el"] <- "Israel"
 cities$country[cities$country == "Schweiz"] <- "Switzerland"
 cities$country[cities$country == "België"] <- "Belgium"
 cities$country[cities$country == "España"] <- "Spain"
-cities$country[cities$country == "Jugoslavija"] <- ""
 cities$country[cities$country == "Bénin"] <- "Benin"
 cities$country[cities$country == "Tunis"] <- "Tunisia"
 cities$country[cities$country == "Taehan Min'guk"] <- "Korea South"
@@ -118,11 +110,21 @@ cities$country[cities$country == "Mehoz, Yisra'el"] <- "Israel"
 cities$country[cities$country == "Otok, Hrvatska"] <- "Croatia"
 cities$country[cities$country == "la, France"] <- "France"
 cities$country[cities$country == "Al-'Iraq"] <- "Iraq"
+cities$country[cities$country == "Al-'Iraq"] <- "Iraq"
+cities$country[cities$country == "Îran"] <- "Iran"
+cities$country[cities$country == "Ísland"] <- "Iceland"
+cities$country[cities$country == "Danmark"] <- "Denmark"
 
-# Join to dataset of city coordinates (from package maps)
+# Join to dataset of city coordinates (from package maps) to see which ones remain to be cleaned
 cities <- left_join(cities, coords[c("name","country.etc","lat","long")], by = c("city" = "name","country" = "country.etc"))
 
-# Clean up cities.  Where city not easily available, replace with capitol
+# Phase 2 : Where city not easily available, replace with country capitol
+# First, clean up Yugoslavia.  Identify current country based on city name
+cities$country[cities$city == "Novi Sad"] <- "Serbia"
+cities$country[cities$city == "Sid"] <- "Serbia"
+cities$country[cities$city == "Beograd"] <- "Serbia"
+
+# Then fill in capitols
 cities$city[is.na(cities$lat) & cities$country == "USA"] <- "Washington"
 cities$city[is.na(cities$lat) & cities$country == "UK"] <- "London"
 cities$city[is.na(cities$lat) & cities$country == "Israel"] <- "Jerusalem"
@@ -145,17 +147,17 @@ cities$city[is.na(cities$lat) & cities$country == "Mexico"] <- "Mexico City"
 cities$city[is.na(cities$lat) & cities$country == "Spain"] <- "Madrid"
 cities$city[is.na(cities$lat) & cities$country == "Peru"] <- "Lima"
 cities$city[is.na(cities$lat) & cities$country == "Brazil"] <- "Brasilia"
-cities$city[is.na(cities$lat) & cities$country == "Ukraine"] <- "Kyiv"
+cities$city[is.na(cities$lat) & cities$country == "Ukraine"] <- "Kiev"
 cities$city[is.na(cities$lat) & cities$country == "Îran"] <- "Tehran"
 cities$city[is.na(cities$lat) & cities$country == "Venezuela"] <- "Caracas"
 cities$city[is.na(cities$lat) & cities$country == "Pakistan"] <- "Islamabad"
 cities$city[is.na(cities$lat) & cities$country == "Japan"] <- "Tokyo"
-cities$city[is.na(cities$lat) & cities$country == "Vietnam"] <- "Hanoi"
+cities$city[is.na(cities$lat) & cities$country == "Vietnam"] <- "Ha Noi"
 cities$city[is.na(cities$lat) & cities$country == "Romania"] <- "Bucharest"
 cities$city[is.na(cities$lat) & cities$country == "Australia"] <- "Canberra"
 cities$city[is.na(cities$lat) & cities$country == "Algeria"] <- "Algiers"
 cities$city[is.na(cities$lat) & cities$country == "Canada"] <- "Ottawa"
-cities$city[is.na(cities$lat) & cities$country == "Lebanon"] <- "Beirut"
+cities$city[is.na(cities$lat) & cities$country == "Lebanon"] <- "Bayrut"
 cities$city[is.na(cities$lat) & cities$country == "Sweden"] <- "Stockholm"
 cities$city[is.na(cities$lat) & cities$country == "Ireland"] <- "Dublin"
 cities$city[is.na(cities$lat) & cities$country == "Austria"] <- "Vienna"
@@ -163,9 +165,9 @@ cities$city[is.na(cities$lat) & cities$country == "South Africa"] <- "Pretoria"
 cities$city[is.na(cities$lat) & cities$country == "Bosnia and Herzegovina"] <- "Sarajevo"
 cities$city[is.na(cities$lat) & cities$country == "Uganda"] <- "Kampala"
 cities$city[is.na(cities$lat) & cities$country == "Norway"] <- "Oslo"
-cities$city[is.na(cities$lat) & cities$country == "India"] <- "New Delhi"
+cities$city[is.na(cities$lat) & cities$country == "India"] <- "Delhi"
 cities$city[is.na(cities$lat) & cities$country == "New Zealand"] <- "Wellington"
-cities$city[is.na(cities$lat) & cities$country == "Cuba"] <- "Havana"
+cities$city[is.na(cities$lat) & cities$country == "Cuba"] <- "Havanna"
 cities$city[is.na(cities$lat) & cities$country == "Greece"] <- "Athens"
 cities$city[is.na(cities$lat) & cities$country == "Colombia"] <- "Bogota"
 cities$city[is.na(cities$lat) & cities$country == "Latvia"] <- "Riga"
@@ -190,135 +192,119 @@ cities$city[is.na(cities$lat) & cities$country == "Moldova"] <- "Chisinau"
 cities$city[is.na(cities$lat) & cities$country == "Hungary"] <- "Budapest"
 cities$city[is.na(cities$lat) & cities$country == "Mauritius"] <- "Port Louis"
 cities$city[is.na(cities$lat) & cities$country == "Korea North"] <- "Pyongyang"
-cities$city[is.na(cities$lat) & cities$country == "Korea South"] <- "Seoul"
+cities$city[is.na(cities$lat) & cities$country == "Korea South"] <- "Soul"
 cities$city[is.na(cities$lat) & cities$country == "Sri Lanka"] <- "Colombo"
-cities$city[is.na(cities$lat) & cities$country == "Luxembourg"] <- "Luxembourg City"
+cities$city[is.na(cities$lat) & cities$country == "Luxembourg"] <- "Luxemburg"
 cities$city[is.na(cities$lat) & cities$country == "Philippines"] <- "Manila"
 cities$city[is.na(cities$lat) & cities$country == "Jamaica"] <- "Kingston"
 cities$city[is.na(cities$lat) & cities$country == "Kenya"] <- "Nairobi"
 cities$city[is.na(cities$lat) & cities$country == "Laos"] <- "Vientiane"
 cities$city[is.na(cities$lat) & cities$country == "Malta"] <- "Valletta"
-cities$city[is.na(cities$lat) & cities$country == "Panama"] <- "Panama City"
+cities$city[is.na(cities$lat) & cities$country == "Panama"] <- "Panama"
 cities$city[is.na(cities$lat) & cities$country == "Albania"] <- "Tirana" 
 cities$city[is.na(cities$lat) & cities$country == "Nicaragua"] <- "Managua"
 cities$city[is.na(cities$lat) & cities$country == "Syria"] <- "Damascus"
 cities$city[is.na(cities$lat) & cities$country == "Thailand"] <- "Bangkok"
 cities$city[is.na(cities$lat) & cities$country == "Guyana"] <- "Georgetown"         
 cities$city[is.na(cities$lat) & cities$country == "Zambia"] <- "Lusaka"
+cities$city[is.na(cities$lat) & cities$country == "Iceland"] <- "Reykjavik"
+cities$city[is.na(cities$lat) & cities$country == "Belarus"] <- "Minsk"
+cities$city[is.na(cities$lat) & cities$country == "Serbia"] <- "Belgrade"
 
-# Join to dataset of city coordinates (from package maps)
+# Join to dataset of city coordinates (from package maps) to see which ones remain to be cleaned
 cities <- left_join(cities[c("place","city","country")], coords[c("name","country.etc","lat","long")], by = c("city" = "name","country" = "country.etc"))
 
-# Path dataframe ----
-# Shows the 'from' (birthplace) and 'to' (place of death)
+# Phase 3 : Clean up U.S. States.  Replace with state capitol where it doesn't match
+cities$city[is.na(cities$lat) & cities$country == "Rhode Island"] <- "Providence"
+cities$city[is.na(cities$lat) & cities$country == "Nevada"] <- "Carson city"
+cities$city[is.na(cities$lat) & cities$country == "Wisconsin"] <- "Madison"
+cities$city[is.na(cities$lat) & cities$country == "Arkansas"] <- "Little Rock"
+cities$city[is.na(cities$lat) & cities$country == "Pennsylvania"] <- "Harrisburg"
+cities$city[is.na(cities$lat) & cities$country == "Montana"] <- "Helena"
+cities$city[is.na(cities$lat) & cities$country == "Iowa"] <- "Des Moines"
+cities$city[is.na(cities$lat) & cities$country == "Maine"] <- "Augusta"
+cities$city[is.na(cities$lat) & cities$country == "West Virginia"] <- "Charleston"
+cities$city[is.na(cities$lat) & cities$country == "California"] <- "Sacramento"
+cities$city[is.na(cities$lat) & cities$country == "Ohio"] <- "Columbus"
 
-path <- left_join(artist, artwork, by = c("id" = "artistId"))
-path <- artist[c("name","placeOfBirth","placeOfDeath")]
-colnames(path) <- c("artist","from","to")
+# Final join to dataset of city coordinates (from package maps)
+cities <- left_join(cities[c("place","city","country")], coords[c("name","country.etc","lat","long")], by = c("city" = "name","country" = "country.etc"))
+print(paste0(100 * nrow(cities[is.na(cities$lat) & !is.na(cities$place) & cities$place != "",]) / nrow(cities),"% of cities have no lat/long match"))
+print(paste0(100 * nrow(cities[is.na(cities$place) | cities$place =="",]) / nrow(cities),"% of artists have no birthplace in dataset"))
 
-# TO DO : think about this -- could manually look up a few, or presume NA means birth = death?
-# Drop observations where either to or from is missing
-path <- path[!is.na(path$from) & !is.na(path$to),]
+# Now we will loop through each of the timeframes
+print(paste0("First acquisition : ",min(artwork$year_first_acquired)))
+print(paste0("Latest acquisition : ",max(artwork$year_first_acquired)))
 
-# Find number of paintings, per artist
-path.ag <- ddply(path, c("from","to"), function(x) count(x$to))
-
-# Add lat and long from the cities df we made earlier
-to.ll <- merge(path.ag, cities, all.x = T, by.x = "to", by.y = "place")
-from.ll <- merge(path.ag, cities, all.x = T, by.x = "from", by.y = "place")
-
-# TO DO : clean up
-# Drop where we didn't have a match to lat/long
-to.ll <- to.ll[!is.na(to.ll$lat),] %>%
-  dplyr::rename(latitude = lat, longitude = long)
-from.ll <- from.ll[!is.na(from.ll$lat),]
-from.ll %>% 
-  dplyr::rename(latitude = lat, 
-         longitude = long)
-
-# calculate routes -- Dateline Break FALSE, otherwise we get a bump in the shifted ggplots
-location.ll <- c(-2.7814688, 51.8078055)
-
-rts <- gcIntermediate(location.ll, from.ll[,c('long', 'lat')], 100, breakAtDateLine=FALSE, addStartEnd=TRUE, sp=TRUE)
-rts <- as(rts, "SpatialLinesDataFrame")
-rts.ff <- fortify(rts)
-
-to.ll$id <-as.character(c(1:nrow(to.ll))) # that rts.ff$id is a char
-gcircles <- merge(rts.ff, to.ll, all.x=T, by="id") # join attributes, we keep them all, just in case
-
-### Recenter ####
-center <- -2 # positive values only - US centered view is 260
-
-# shift coordinates to recenter great circles
-gcircles$long.recenter <-  ifelse(gcircles$long  < center - 180 , gcircles$long + 360, gcircles$long) 
-
-# shift coordinates to recenter worldmap
-worldmap <- map_data ("world")
-worldmap$long.recenter <-  ifelse(worldmap$long  < center - 180 , worldmap$long + 360, worldmap$long)
-
-### Function to regroup split lines and polygons
-# takes dataframe, column with long and unique group variable, returns df with added column named group.regroup
-RegroupElements <- function(df, longcol, idcol){  
-  g <- rep(1, length(df[,longcol]))
-  if (diff(range(df[,longcol])) > 300) {          # check if longitude within group differs more than 300 deg, ie if element was split
-    d <- df[,longcol] > mean(range(df[,longcol])) # we use the mean to help us separate the extreme values
-    g[!d] <- 1     # some marker for parts that stay in place (we cheat here a little, as we do not take into account concave polygons)
-    g[d] <- 2      # parts that are moved
+system.time({
+for(max in seq(1830, 2020, 10)) {
+  print(paste0("Producing image for 1823 - ", max))
+  # Create a path dataframe ----
+  # Calculate the shape between the place of birth and the geographic location of the Tate museum
+  path <- left_join(artist, artwork, by = c("id" = "artistId"))
+  path <- path[c("name","placeOfBirth","year_first_acquired")]
+  colnames(path) <- c("artist","from", "year_first_acquired")
+  
+  # Keep only acquisitions during the timeframe
+  path <- path[path$year_first_acquired <= max,]
+  
+  # Aggregate to 
+  path <- ddply(path, c("from"), function(x) count(x$from))
+  
+  # Drop observations where location is missing
+  path <- path[!is.na(path$from),]
+  
+  # Add lat and long from the cities df we made earlier
+  from.ll <- merge(path, cities, all.x = T, by.x = "from", by.y = "place")
+  
+  # Drop where we didn't have a match to lat/long
+  from.ll <- from.ll[!is.na(from.ll$lat),]
+  
+  # calculate routes -- Dateline Break FALSE, otherwise we get a bump in the shifted ggplots
+  location.ll <- c(-2.7814688, 51.8078055)
+  
+  rts <- gcIntermediate(location.ll, from.ll[,c('long', 'lat')], 100, breakAtDateLine=FALSE, addStartEnd=TRUE, sp=TRUE)
+  rts <- as(rts, "SpatialLinesDataFrame")
+  rts.ff <- fortify(rts)
+  
+  # Create text label
+  tag.map.title <- tags$style(HTML("
+  .leaflet-control.map-title { 
+    transform: translate(-50%,20%);
+    position: fixed !important;
+    left: 50%;
+    text-align: center;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    background: rgba(255,255,255,0.75);
+    font-weight: bold;
+    font-size: 28px;
   }
-  g <-  paste(df[, idcol], g, sep=".") # attach to id to create unique group variable for the dataset
-  df$group.regroup <- g
-  df
+"))
+  
+  title <- tags$div(
+    tag.map.title, HTML(max)
+  )  
+  
+  # Create visuals ----
+  rts %>%
+    leaflet(width = 1150,
+            height = 750,
+            ## the options below define the initial coordinates (center)
+            ##, the initial zoom (x2) and the bounds of the map
+            options = leafletOptions(center = c(30, 30),
+                                     zoom = 2,
+                                     maxBounds = list(c(-90, -120),
+                                                      c(90,120)))
+    )  %>% 
+   addProviderTiles(providers$NASAGIBS.ViirsEarthAtNight2012) %>%
+    addPolylines(color = "white", opacity = 0.3, weight =  0.9) %>%
+    addControl(title, position = "topleft", className="map-title") %>%
+    addCircles(lat = from.ll$lat, lng = from.ll$long, radius = 1, opacity = 0.5, color = "yellow", stroke = "white") %>%
+    mapshot(file = paste0("./tate_test",max,".png"))
 }
+})
 
-### Function to close regrouped polygons
-# takes dataframe, checks if 1st and last longitude value are the same, if not, inserts first as last and reassigns order variable
-ClosePolygons <- function(df, longcol, ordercol){
-  if (df[1,longcol] != df[nrow(df),longcol]) {
-    tmp <- df[1,]
-    df <- rbind(df,tmp)
-  }
-  o <- c(1: nrow(df))  # rassign the order variable
-  df[,ordercol] <- o
-  df
-}
-
-# now regroup
-gcircles.rg <- ddply(gcircles, .(id), RegroupElements, "long.recenter", "id")
-worldmap.rg <- ddply(worldmap, .(group), RegroupElements, "long.recenter", "group")
-
-# close polys
-worldmap.cp <- ddply(worldmap.rg, .(group.regroup), ClosePolygons, "long.recenter", "order")  # use the new grouping var
-
-library(mapview)
-# plot 1
-ggplot() +
-  geom_polygon(aes(long.recenter, lat, group=group.regroup), size = 0.2, fill="#110f52", data=worldmap.cp) +
-  geom_line(aes(long.recenter,lat,group=group.regroup, color = "#f0e891", alpha = 1), size = 0.4, data= gcircles.rg) +
-  geom_point(aes(x = from.ll$long, y = from.ll$lat), colour = "#f0e891", size = 1, alpha = 0.5) +
-  theme_void() +
-  theme(panel.background = element_rect(fill = "#080727"), 
-        panel.grid.minor = element_blank(), 
-        panel.grid.major = element_blank(),  
-        axis.ticks = element_blank(), 
-        axis.title.x = element_blank(),
-        legend.position = "none") +
-  ylim(-60, 90) +
-  coord_equal() +
-  geom_stars(data= sat_vis)
-
-# --------------------------
-rts %>%
-  leaflet(width = 1040, ## default setting for nice visuals
-          height = 800,
-          ## the options below define the initial coordinates (center)
-          ##, the initial zoom (x2) and the bounds of the map
-          options = leafletOptions(center = c(-2,0),
-                                   zoom = 3,
-                                   maxBounds = list(c(-90, -180),
-                                                    c(90,180)))
-  )  %>% 
-  addProviderTiles(providers$NASAGIBS.ViirsEarthAtNight2012) %>%
-#  addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%
-   addPolylines(color = "white", opacity = 0.3, weight =  0.9) %>%
-addCircles(lat = from.ll$lat, lng = from.ll$long, radius = 1, color = "yellow", stroke = "white") %>%
-mapshot(file = "./tate.png")
+# Combine PNG into GIF ----
+png_files <- list.files("./", pattern = ".*png$", full.names = TRUE)
+gifski(png_files, gif_file = "animation.gif", width = 1150, height = 750, delay = 0.3)
