@@ -211,6 +211,7 @@ worldmap.rg <- ddply(worldmap, .(group), RegroupElements, "long.recenter", "grou
 # close polys
 worldmap.cp <- ddply(worldmap.rg, .(group.regroup), ClosePolygons, "long.recenter", "order")  # use the new grouping var
 
+library(mapview)
 # plot 1
 ggplot() +
   geom_polygon(aes(long.recenter, lat, group=group.regroup), size = 0.2, fill="#110f52", data=worldmap.cp) +
@@ -238,6 +239,8 @@ rts %>%
                                    maxBounds = list(c(-90, -180),
                                                     c(90,180)))
   )  %>% 
-#  addProviderTiles(providers$NASAGIBS.ViirsEarthAtNight2012) %>%
   addProviderTiles(providers$NASAGIBS.ViirsEarthAtNight2012) %>%
-   addPolylines(color = "white", opacity = 0.5, weight =  0.9)
+#  addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%
+   addPolylines(color = "white", opacity = 0.3, weight =  0.9) %>%
+addCircles(lat = from.ll$lat, lng = from.ll$long, radius = 1, color = "yellow", stroke = "white") %>%
+mapshot(file = "./tate.png")
