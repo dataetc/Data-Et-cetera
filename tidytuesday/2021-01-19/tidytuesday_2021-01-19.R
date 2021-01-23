@@ -23,14 +23,156 @@ lapply(list.of.packages, require, character.only = TRUE)
 # the night of 24th/25th to 31st August 2019. Kenya leveraged on technology to capture data during cartographic mapping, 
 # enumeration and data transmission, making the 2019 Census the first paperless census to be conducted in Kenya
 
+
+# library
+library(tidyverse)
+library(geojsonio)
+library(RColorBrewer)
+library(rgdal)
+library(broom)
+library(rgeos)
+library(hexbin)
+library(tidyverse)
+library(viridis)
+library(hrbrthemes)
+library(mapdata)
+
+data_example <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/17_ListGPSCoordinates.csv", sep=",", header=T)
+
+# Set up shapefile
+spdf <- raster::getData("GADM", country = "KE", level = 1)
+
+# Bit of reformating
+spdf@data = spdf@data %>%
+  filter(NAME_1 != "KENYA")
+
+# Show it
+plot(spdf)
+
+# I need to 'fortify' the data to be able to show it with ggplot2 (we need a data frame format)
+spdf_fortified <- tidy(spdf, region = "NAME_1")
+
+# Calculate the centroid of each county, so that we can create hex map
+centers <- cbind.data.frame(data.frame(gCentroid(spdf, byid=T), id = spdf@data$NAME_1))
+
+# check that shape file works
+ggplot() +
+  geom_polygon(data = spdf_fortified, aes( x = long, y = lat, group = group), fill="skyblue", color="white") +
+  geom_text(data=centers, aes(x=x, y=y, label=id)) +
+  theme_void() +
+  coord_map()
+
 # Read in data ----
 tuesdata <- tidytuesdayR::tt_load('2021-01-19')
 
 df_gender <- tuesdata$gender
 df_crops <- tuesdata$crops
 df_households <- tuesdata$households
-
 df_water <- rKenyaCensus::V4_T2.15
+
+# Let's try using % female as our metric
+data <- df_gender %>%
+  mutate(pct_female = Female / Total)
+
+# Plot distribution of % female
+data %>% 
+  ggplot(aes(x = pct_female)) + 
+  geom_histogram(bins=20, fill = '#69b3a2', color = 'white') + 
+  scale_x_continuous(breaks = seq(1,30))
+
+# Merge geospatial and numerical information
+spdf_fortified <- spdf_fortified %>%
+  left_join(. , data, by=c("id"="County")) 
+
+# Regular chloropleth map
+ggplot() +
+  geom_polygon(data = spdf_fortified, aes(fill =pct_female, x = long, y = lat, group = group)) +
+ # geom_text(inherit.aes = T, aes(label = id)) + 
+  scale_fill_gradient(trans = "log") +
+  theme_void() +
+  coord_map()
+
+# # Hex Map
+# hex_data <- left_join(centers, data, by = c("id" = "County"))
+# 
+# hex_data <- hex_data %>%
+#   dplyr::select(id, x, y, pct_female) %>%
+#   mutate(pct_female = round(100* pct_female)) 
+# 
+# df_forGrid <- data.frame()
+# for(i in 1:nrow(hex_data)){
+#   if(!is.na(hex_data[i, 4])){
+#   df_forGrid <- bind_rows(df_forGrid, expand.grid(hex_data[i,1], 1:hex_data[i,4]))
+#   }
+# }
+# 
+# df_forGrid <- left_join(df_forGrid, hex_data, by = c("Var1" = "id"))
+
+# Hex data 
+# Manually code lat/long to make it look like the map
+hex_data <- left_join(centers, data, by = c("id" = "County"))
+hex_data$x_org <- hex_data$x
+hex_data$y_org <- hex_data$y
+hex_data$x <- NA
+hex_data$y <- NA
+
+hex_data <- hex_data %>%
+  arrange(x_org) %>%
+  mutate(x = row_number())
+
+hex_data <- hex_data %>%
+  arrange(y_org) %>%
+  mutate(y = row_number())
+
+hex_data <- hex_data %>%
+   dplyr::select(id, x, y, pct_female) %>%
+   mutate(pct_female = round(100* pct_female)) 
+
+df_forGrid <- data.frame()
+for(i in 1:nrow(hex_data)){
+   if(!is.na(hex_data[i, 4])){
+   df_forGrid <- bind_rows(df_forGrid, expand.grid(hex_data[i,1], 1:hex_data[i,4]))
+   }
+ }
+ 
+df_forGrid <- left_join(df_forGrid, hex_data, by = c("Var1" = "id"))
+
+# Plot hex graph
+df_forGrid %>%
+  filter(!is.na(pct_female)) %>%
+  ggplot(aes(x = x, y = y)) + 
+  geom_hex(inherit.aes  = T, colour = "black", size = 0.1) +
+  geom_text(inherit.aes = T, aes(label = Var1), nudge_x = 1, nudge_y = -0.6) +
+  annotate("text", x = 1, y = 53, label="Percent of population that is female", colour = "black", size=5, alpha=1, hjust=0) +
+  theme_void() +
+  xlim(1, 60) +
+  ylim(-10, 55) +
+  scale_fill_viridis(
+    option="B",
+    trans = "log",
+    breaks = c(45, 46, 47, 48, 49, 50, 51),
+    name="% female",
+    guide = guide_legend(keyheight = unit(2.5, units = "mm"),
+                         keywidth=unit(10, units = "mm"),
+                         label.position = "bottom",
+                         title.position = 'top',
+                         nrow=1)
+  )  +
+  ggtitle( "" ) +
+  theme(
+    legend.position = c(0.8, 0.09),
+    legend.title=element_text(color="black", size = 13),
+    text = element_text(color = "#22211d", size = 13),
+    plot.background = element_rect(fill = "#f5f5f2", color = NA), 
+    panel.background = element_rect(fill = "#f5f5f2", color = NA), 
+    legend.background = element_rect(fill = "#f5f5f2", color = NA),
+    plot.title = element_text(size= 13, hjust=0.1, color = "#4e4d47", margin = margin(b = -0.1, t = 0.4, l = 2, unit = "cm")),
+  ) 
+
+
+
+
+
 
 # Radial Bar Chart (by Region)-------
 # Make the plot
