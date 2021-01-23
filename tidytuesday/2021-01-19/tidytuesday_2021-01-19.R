@@ -1,17 +1,17 @@
 # tidytuesday : 2021-01-19
 
 # Set up environment ----
-list.of.packages <- c("tidytuesdayR","tidyverse","remotes","join","raster")
+remotes::install_github("Shelmith-Kariuki/rKenyaCensus")
+
+list.of.packages <- c("tidytuesdayR","tidyverse","remotes","join","raster","rKenyaCensus")
 
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 lapply(list.of.packages, require, character.only = TRUE)
 
-remotes::install_github("Shelmith-Kariuki/rKenyaCensus")
-
 # Info on data ----
 
-# README : https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-01-19/readme.md
+# README : 
 
 # The data this week comes from rKenyaCensus courtesy of Shelmith Kariuki. Shelmith wrote about these datasets on her blog.
 # 
@@ -29,6 +29,8 @@ tuesdata <- tidytuesdayR::tt_load('2021-01-19')
 df_gender <- tuesdata$gender
 df_crops <- tuesdata$crops
 df_households <- tuesdata$households
+
+df_water <- rKenyaCensus::V4_T2.15
 
 # Radial Bar Chart (by Region)-------
 # Make the plot
@@ -94,16 +96,20 @@ count_df<-data.frame(NAME_1, count)
 df_crops_forMap <- df_crops %>%
   filter(SubCounty != "KENYA") %>%
   mutate(region = tolower(SubCounty),
-         region = gsub("/", "-", region))
+         region = gsub("/", "-", region),
+         region = ifelse(region == "taita-taveta", "taita taveta", region))
 
 # Combine the dataset with the shapefile
-index_ofMatch <- match(df_crops_forMap$region, regions)
+  index_ofMatch <- match(regions, df_crops_forMap$region)
 
-cbind(shapefile_kenya@data, df_crops_forMap[index_ofMatch,])
+  # Check the matching between datasets:
+  cbind(shapefile_kenya@data, df_crops_forMap[index_ofMatch,]) %>%
+    dplyr::select(NAME_1, region)
+ 
 
 shapefile_kenya@data <- cbind(shapefile_kenya@data, df_crops_forMap[index_ofMatch,])
 Kenya_df <- fortify(shapefile_kenya)
-Kenya_df <-plyr::join(Kenya_df, shapefile_kenya@data, by = "id")
+Kenya_df <-plyr::join(Kenya_df, shapefile_kenya@data %>% mutate(id = as.character(row_number())) %>% filter(id == "1"), by = c("id"))
 
 #Kenya1_df <- join(Kenya1_df,Kenya1_UTM@data, by="id")
 
@@ -119,9 +125,9 @@ theme_opts<-list(theme(panel.grid.minor = element_blank(),
                        axis.title.y = element_blank(),
                        plot.title = element_blank()))
 
-plot(shapefile_kenya)
+  plot(shapefile_kenya)
 ggplot() +
-  geom_polygon(data = shapefile_kenya, aes(x = long, y = lat, group = group, fill =
+  geom_polygon(data = Kenya_df, aes(x = long, y = lat, group = group, fill =
                                        Avocado), color = "black", size = 0.25) +
   theme(aspect.ratio=1)+
   scale_fill_distiller(name="Count", palette = "YlGn")+
