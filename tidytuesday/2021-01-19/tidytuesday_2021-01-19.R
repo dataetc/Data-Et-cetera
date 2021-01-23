@@ -5,7 +5,7 @@
 remotes::install_github("Shelmith-Kariuki/rKenyaCensus")
 
 #list.of.packages <- c("tidytuesdayR","tidyverse","remotes","join","raster","rKenyaCensus")
-list.of.packages <- c("tidytuesdayR","tidyverse","broom","hexbin","rgeos")
+list.of.packages <- c("tidytuesdayR","tidyverse","broom","hexbin","rgeos","viridis")
 
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -67,14 +67,6 @@ data <- df_gender %>%
   mutate(pct_female = Female / Total)
 
 
-# Plot distribution of % female ---------------------------------------
-
-data %>% 
-  ggplot(aes(x = pct_female)) + 
-  geom_histogram(bins=20, fill = '#69b3a2', color = 'white') + 
-  scale_x_continuous(breaks = seq(1,30))
-
-
 # Merge geospatial and % female data ---------------------------------------
 
 spdf_fortified <- spdf_fortified %>%
@@ -115,6 +107,8 @@ hex_data <- hex_data %>%
 # Get data ready for map ---------------------------------------
 
 df_forGrid <- data.frame()
+
+# Map type requires one row per observation, so expanding dataset
 for(i in 1:nrow(hex_data)){
   if(!is.na(hex_data[i, 4])){
     df_forGrid <- bind_rows(df_forGrid, expand.grid(hex_data[i,1], 1:hex_data[i,4]))
@@ -136,22 +130,22 @@ df_forGrid %>%
   geom_label(inherit.aes = T, 
              aes(label = Var1), 
              size = 4, 
-             colour = "grey80", 
-             fill = "grey20",
-             vjust = "outward",
-             hjust = "outward",
+             colour = alpha("grey80", 0.3), 
+             fill = alpha("grey20", 0.3),
+              vjust = "outward",
+              hjust = "outward",
              label.padding = unit(0.2, "lines"),
              label.r = unit(0.15, "lines"),
              label.size = 0.01,
              fontface = "italic") +
+  
   annotate("text", x = 1, y = 54, label="What percent of Kenya's population is female?", colour = "grey80", size=7, alpha=1, hjust=0, fontface = "bold") +
   theme_void() +
   xlim(-5, 60) +
   ylim(-10, 55) +
   scale_fill_viridis(
-    option="B",
-    trans = "log",
-    breaks = c(46, 48, 50, 52, 54),
+    breaks = c(45, 47, 49, 51, 53),
+    labels = c("45", "46 - 47", "48 - 49", "50 - 51", "52 +"),
     name="% female",
     guide = guide_legend(keyheight = unit(2.5, units = "mm"),
                          keywidth=unit(10, units = "mm"),
