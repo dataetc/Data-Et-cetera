@@ -2,7 +2,7 @@
 
 # Set up environment ---------------------------------------
 
-list.of.packages <- c("tidytuesdayR","tidyverse")
+list.of.packages <- c("tidytuesdayR","tidyverse","networkD3","htmlwidgets")
 
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
@@ -40,3 +40,98 @@ lapply(list.of.packages, require, character.only = TRUE)
 tuesdata <- tidytuesdayR::tt_load('2021-01-26')
 
 plastics <- tuesdata$plastic
+
+
+# Clean data a bit -------------------------------------
+
+table(plastics$country)
+
+plastics$country[plastics$country == "Cote D_ivoire"] <- "Cote d'Ivoire"
+plastics$country[plastics$country == "EMPTY"] <- ""
+plastics$country[plastics$country == "ECUADOR"] <- "Ecuador"
+plastics$country[plastics$country == "NIGERIA"] <- "Nigeria"
+plastics$country[plastics$country == "United Kingdom of Great Britain & Northern Ireland"] <- "United Kingdom"
+plastics$country[plastics$country == "Taiwan_ Republic of China (ROC)"] <- "Taiwan"
+
+table(plastics$country)
+
+
+# Create a table of nodes ----------------------------------------------
+
+# Create the df of names (source and target) for labeling
+nodes <- data.frame()
+
+countries <- unique(as.data.frame(plastics$country))
+colnames(countries) <- "name"
+
+companies <- unique(as.data.frame(plastics$parent_company))
+colnames(companies) <- "name"
+
+nodes <- as.data.frame(rbind(nodes, countries, companies))
+head(nodes)
+
+# Create zero-indexed ID, pass it to row names
+nodes$id <- seq.int(nrow(nodes)) -1
+rownames(nodes) <- nodes$id
+
+# Create a table of links ---------------------------------------------------
+
+# Create a 'to' and 'from' linker dataframe (in this case between company and country)
+
+links <- plastics[c("country","parent_company","grand_total")]
+
+links <- left_join(links, nodes, by = c("country" = "name"))
+colnames(links) <- c("country","parent_company","value", "target")
+
+links <- left_join(links, nodes, by = c("parent_company" = "name"))
+colnames(links) <- c("country","parent_company","value", "target","source")
+
+links <- as.data.frame(links[c("source","target","value")])
+
+# Convert to numeric
+links$target <- as.numeric(links$target)
+links$source <- as.numeric(links$source)
+
+# Drop missing values
+links <- links[!is.na(links$value),]
+
+# Combine the two into one list
+# FIRST JUST USING A FEW OBS
+links <- links[1:10,]
+list_sankey <- list("links" = links, "nodes" = nodes[c("name")])
+
+
+# Create Sankey -----------------------------------------------------------
+
+p <- sankeyNetwork(Links = list_sankey$links, Nodes = list_sankey$nodes, Source = "source",
+                   Target = "target", Value = "value", NodeID = "name",
+                   fontSize = 12, nodeWidth = 100)
+
+p
+
+# Save widget ------------------------------------------------------------
+
+saveWidget(p, file=paste0( getwd(), "plastics.html"))
+
+
+# TEST EXAMPLE FROM INTERNET
+# https://www.r-graph-gallery.com/323-sankey-diagram-with-the-networkd3-library.html
+
+# # Load energy projection data
+#  URL <- "https://cdn.rawgit.com/christophergandrud/networkD3/master/JSONdata/energy.json"
+#  Energy <- jsonlite::fromJSON(URL)
+# # 
+# # 
+# # # Now we have 2 data frames: a 'links' data frame with 3 columns (from, to, value), and a 'nodes' data frame that gives the name of each node.
+#  head( Energy$links )
+#  head( Energy$nodes )
+# # 
+# # # Thus we can plot it
+#  p <- sankeyNetwork(Links = Energy$links, Nodes = Energy$nodes, Source = "source",
+#                     Target = "target", Value = "value", NodeID = "name",
+#                     units = "TWh", fontSize = 12, nodeWidth = 30)
+#  p
+
+# save the widget
+# library(htmlwidgets)
+ #saveWidget(p, file=paste0( getwd(), "sankeyEnergy.html"))
