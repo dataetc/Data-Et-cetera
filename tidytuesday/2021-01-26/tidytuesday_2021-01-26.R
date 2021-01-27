@@ -96,16 +96,15 @@ links$source <- as.numeric(links$source)
 links <- links[!is.na(links$value),]
 
 # Combine the two into one list
-# FIRST JUST USING A FEW OBS
-links <- links[1:10,]
+links <- links[c(1,100,200,300,400,500,600),]   # FIRST JUST USING A FEW OBS
 list_sankey <- list("links" = links, "nodes" = nodes[c("name")])
 
 
 # Create Sankey -----------------------------------------------------------
 
-p <- sankeyNetwork(Links = list_sankey$links, Nodes = list_sankey$nodes, Source = "source",
-                   Target = "target", Value = "value", NodeID = "name",
-                   fontSize = 12, nodeWidth = 100)
+p <- sankeyNetwork(Links = list_sankey$links, Nodes = list_sankey$nodes, Source = "target",
+                   Target = "source", Value = "value", NodeID = "name",
+                   fontSize = 12, nodeWidth = 30)
 
 p
 
