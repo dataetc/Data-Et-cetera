@@ -55,6 +55,8 @@ plastics$country[plastics$country == "Taiwan_ Republic of China (ROC)"] <- "Taiw
 
 table(plastics$country)
 
+plastics <- plastics %>%
+  filter(country == "United States of America")
 
 # Create a table of nodes ----------------------------------------------
 
